@@ -20,7 +20,7 @@ class ProgressSection extends React.Component {
                 <span>40%</span>
               </div>
             </div>
-            <Progress max="100" value="25" color="default"/>
+            <Progress max="100" value="25" color="default" />
           </div>
           <div className="progress-wrapper">
             <div className="progress-info">

@@ -5,7 +5,6 @@ import ReactDatetime from "react-datetime";
 // reactstrap components
 import {
   FormGroup,
-  Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
@@ -14,6 +13,7 @@ import {
 } from "reactstrap";
 
 class Datepicker extends React.Component {
+  state = {};
   render() {
     return (
       <>
@@ -25,7 +25,7 @@ class Datepicker extends React.Component {
             <small className="d-block text-uppercase font-weight-bold mb-3">
               Single date
             </small>
-            <FormGroup>
+            <FormGroup className="focused">
               <InputGroup>
                 <InputGroupAddon addonType="prepend">
                   <InputGroupText>
@@ -34,7 +34,6 @@ class Datepicker extends React.Component {
                 </InputGroupAddon>
                 <ReactDatetime
                   inputProps={{
-                    className: "form-control",
                     placeholder: "Date Picker Here"
                   }}
                   timeFormat={false}
@@ -46,46 +45,102 @@ class Datepicker extends React.Component {
             <small className="d-block text-uppercase font-weight-bold mb-3">
               Date range
             </small>
-            <ReactDatetime
-              inputProps={{
-                className: "form-control",
-                placeholder: "Date Picker Here"
-              }}
-              timeFormat={false}
-            >
-              <div className="col">
-                <FormGroup>
+            <Row>
+              <Col xs={6}>
+                <FormGroup className="focused">
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
                         <i className="ni ni-calendar-grid-58" />
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input
-                      defaultValue="06/18/2018"
-                      placeholder="Start date"
-                      type="text"
+                    <ReactDatetime
+                      inputProps={{
+                        placeholder: "Date Picker Here"
+                      }}
+                      timeFormat={false}
+                      renderDay={(props, currentDate, selectedDate) => {
+                        let classes = props.className;
+                        if (
+                          this.state.startDate &&
+                          this.state.endDate &&
+                          this.state.startDate._d + "" === currentDate._d + ""
+                        ) {
+                          classes += " start-date";
+                        } else if (
+                          this.state.startDate &&
+                          this.state.endDate &&
+                          new Date(this.state.startDate._d + "") <
+                            new Date(currentDate._d + "") &&
+                          new Date(this.state.endDate._d + "") >
+                            new Date(currentDate._d + "")
+                        ) {
+                          classes += " middle-date";
+                        } else if (
+                          this.state.endDate &&
+                          this.state.endDate._d + "" === currentDate._d + ""
+                        ) {
+                          classes += " end-date";
+                        }
+                        return (
+                          <td {...props} className={classes}>
+                            {currentDate.date()}
+                          </td>
+                        );
+                      }}
+                      onChange={e => this.setState({ startDate: e })}
                     />
                   </InputGroup>
                 </FormGroup>
-              </div>
-              <div className="col">
-                <FormGroup>
+              </Col>
+              <Col xs={6}>
+                <FormGroup className="focused">
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
                         <i className="ni ni-calendar-grid-58" />
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input
-                      defaultValue="06/22/2018"
-                      placeholder="End date"
-                      type="text"
+                    <ReactDatetime
+                      inputProps={{
+                        placeholder: "Date Picker Here"
+                      }}
+                      timeFormat={false}
+                      renderDay={(props, currentDate, selectedDate) => {
+                        let classes = props.className;
+                        if (
+                          this.state.startDate &&
+                          this.state.endDate &&
+                          this.state.startDate._d + "" === currentDate._d + ""
+                        ) {
+                          classes += " start-date";
+                        } else if (
+                          this.state.startDate &&
+                          this.state.endDate &&
+                          new Date(this.state.startDate._d + "") <
+                            new Date(currentDate._d + "") &&
+                          new Date(this.state.endDate._d + "") >
+                            new Date(currentDate._d + "")
+                        ) {
+                          classes += " middle-date";
+                        } else if (
+                          this.state.endDate &&
+                          this.state.endDate._d + "" === currentDate._d + ""
+                        ) {
+                          classes += " end-date";
+                        }
+                        return (
+                          <td {...props} className={classes}>
+                            {currentDate.date()}
+                          </td>
+                        );
+                      }}
+                      onChange={e => this.setState({ endDate: e })}
                     />
                   </InputGroup>
                 </FormGroup>
-              </div>
-            </ReactDatetime>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </>
