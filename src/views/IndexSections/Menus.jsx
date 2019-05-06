@@ -40,16 +40,10 @@ class Menus extends React.Component {
                     >
                       Menu
                     </NavbarBrand>
-                    <button
-                      className="navbar-toggler"
-                      id="nav-inner-primary"
-                    >
+                    <button className="navbar-toggler" id="nav-inner-primary">
                       <span className="navbar-toggler-icon" />
                     </button>
-                    <UncontrolledCollapse
-                      navbar
-                      toggler="#nav-inner-primary"
-                    >
+                    <UncontrolledCollapse navbar toggler="#nav-inner-primary">
                       <div className="navbar-collapse-header">
                         <Row>
                           <Col className="collapse-brand" xs="6">
@@ -90,9 +84,7 @@ class Menus extends React.Component {
                           </NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
-                          <DropdownToggle nav>
-                            Settings
-                          </DropdownToggle>
+                          <DropdownToggle nav>Settings</DropdownToggle>
                           <DropdownMenu
                             aria-labelledby="nav-inner-primary_dropdown_1"
                             right
@@ -137,16 +129,10 @@ class Menus extends React.Component {
                     >
                       Menu
                     </NavbarBrand>
-                    <button
-                      className="navbar-toggler"
-                      id="nav-inner-success"
-                    >
+                    <button className="navbar-toggler" id="nav-inner-success">
                       <span className="navbar-toggler-icon" />
                     </button>
-                    <UncontrolledCollapse
-                      navbar
-                      toggler="#nav-inner-success"
-                    >
+                    <UncontrolledCollapse navbar toggler="#nav-inner-success">
                       <div className="navbar-collapse-header">
                         <Row>
                           <Col className="collapse-brand" xs="6">
