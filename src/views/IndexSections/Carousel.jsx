@@ -1,7 +1,22 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
+
+const items = [
+  {
+    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  }
+];
 
 class Carousel extends React.Component {
   render() {
@@ -37,62 +52,7 @@ class Carousel extends React.Component {
               </Col>
               <Col className="mb-lg-auto" lg="6">
                 <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
-                  <div
-                    className="carousel slide"
-                    data-ride="carousel"
-                    id="carousel_example"
-                  >
-                    <ol className="carousel-indicators">
-                      <li
-                        className="active"
-                        data-slide-to="0"
-                        data-target="#carousel_example"
-                      />
-                      <li data-slide-to="1" data-target="#carousel_example" />
-                    </ol>
-                    <div className="carousel-inner">
-                      <div className="carousel-item active">
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src={require("assets/img/theme/img-1-1200x1000.jpg")}
-                        />
-                      </div>
-                      <div className="carousel-item">
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src={require("assets/img/theme/img-2-1200x1000.jpg")}
-                        />
-                      </div>
-                    </div>
-                    <a
-                      className="carousel-control-prev"
-                      data-slide="prev"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                      role="button"
-                    >
-                      <span
-                        aria-hidden={true}
-                        className="carousel-control-prev-icon"
-                      />
-                      <span className="sr-only">Previous</span>
-                    </a>
-                    <a
-                      className="carousel-control-next"
-                      data-slide="next"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                      role="button"
-                    >
-                      <span
-                        aria-hidden={true}
-                        className="carousel-control-next-icon"
-                      />
-                      <span className="sr-only">Next</span>
-                    </a>
-                  </div>
+                  <UncontrolledCarousel items={items} />
                 </div>
               </Col>
             </Row>
