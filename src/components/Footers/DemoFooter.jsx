@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -22,22 +23,22 @@ class DemoFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <a href="./examples/landing.html" title="Landing Page">
+                  <Link to="/landing-page">
                     <CardImg
                       alt="..."
                       src={require("assets/img/theme/landing.jpg")}
                     />
-                  </a>
+                  </Link>
                 </Card>
               </Col>
               <Col className="mb-5 mb-lg-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <a href="./examples/profile.html" title="Profile Page">
+                  <Link to="/profile-page">
                     <CardImg
                       alt="..."
                       src={require("assets/img/theme/profile.jpg")}
                     />
-                  </a>
+                  </Link>
                 </Card>
               </Col>
             </Row>
