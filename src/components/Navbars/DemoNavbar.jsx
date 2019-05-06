@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -31,7 +31,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" href="./index.html">
+              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
                   src={require("assets/img/brand/argon-react-white.png")}
@@ -44,12 +44,12 @@ class DemoNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <a href="./index.html">
+                      <Link to="/">
                         <img
                           alt="..."
                           src={require("assets/img/brand/blue.png")}
                         />
-                      </a>
+                      </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
                       <button className="navbar-toggler" id="navbar_global">
@@ -127,16 +127,16 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Examples</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem href="./examples/landing.html">
+                      <DropdownItem to="/landing-page" tag={Link}>
                         Landing
                       </DropdownItem>
-                      <DropdownItem href="./examples/profile.html">
+                      <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem href="./examples/login.html">
+                      <DropdownItem to="/login-page" tag={Link}>
                         Login
                       </DropdownItem>
-                      <DropdownItem href="./examples/register.html">
+                      <DropdownItem to="/register-page" tag={Link}>
                         Register
                       </DropdownItem>
                     </DropdownMenu>

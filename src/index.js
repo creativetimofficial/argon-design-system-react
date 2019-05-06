@@ -15,11 +15,23 @@ import Register from "views/examples/Register.jsx";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" render={props => <Index {...props} />} />
-      <Route path="/landing-page" render={props => <Landing {...props} />} />
-      <Route path="/login-page" render={props => <Login {...props} />} />
-      <Route path="/profile-page" render={props => <Profile {...props} />} />
-      <Route path="/register-page" render={props => <Register {...props} />} />
+      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route
+        path="/landing-page"
+        exact
+        render={props => <Landing {...props} />}
+      />
+      <Route path="/login-page" exact render={props => <Login {...props} />} />
+      <Route
+        path="/profile-page"
+        exact
+        render={props => <Profile {...props} />}
+      />
+      <Route
+        path="/register-page"
+        exact
+        render={props => <Register {...props} />}
+      />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

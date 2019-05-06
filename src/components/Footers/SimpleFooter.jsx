@@ -1,10 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
-  Card,
-  CardImg,
   NavItem,
   NavLink,
   Nav,
@@ -14,104 +11,80 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-class DemoFooter extends React.Component {
+class SimpleFooter extends React.Component {
   render() {
     return (
       <>
-        <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg
-                      alt="..."
-                      src={require("assets/img/theme/landing.jpg")}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={require("assets/img/theme/profile.jpg")}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+        <footer className=" footer">
           <Container>
-            <Row className="row-grid align-items-center my-md">
+            <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className="text-primary font-weight-light mb-2">
+                <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
                 </h3>
-                <h4 className="mb-0 font-weight-light">
+                <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              <Col className=" text-lg-center btn-wrapper" lg="6">
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round"
                   color="twitter"
                   href="https://twitter.com/creativetim"
-                  id="tooltip475038074"
+                  id="tooltip126536702"
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-twitter" />
+                  <i className=" fa fa-twitter" />
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
+                <UncontrolledTooltip delay={0} target="tooltip126536702">
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
-                  id="tooltip837440414"
+                  id="tooltip383967593"
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square" />
+                  <i className=" fa fa-facebook-square" />
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip837440414">
+                <UncontrolledTooltip delay={0} target="tooltip383967593">
                   Like us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
-                  id="tooltip829810202"
+                  id="tooltip568564532"
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-dribbble" />
+                  <i className=" fa fa-dribbble" />
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                <UncontrolledTooltip delay={0} target="tooltip568564532">
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round"
                   color="github"
                   href="https://github.com/creativetimofficial"
-                  id="tooltip495507257"
+                  id="tooltip626177562"
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-github" />
+                  <i className=" fa fa-github" />
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip495507257">
+                <UncontrolledTooltip delay={0} target="tooltip626177562">
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
             <hr />
-            <Row className="align-items-center justify-content-md-between">
+            <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
-                <div className="copyright">
+                <div className=" copyright">
                   © 2018{" "}
                   <a
                     href="https://www.creative-tim.com"
@@ -124,7 +97,7 @@ class DemoFooter extends React.Component {
                 </div>
               </Col>
               <Col md="6">
-                <Nav className="nav-footer justify-content-end">
+                <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com"
@@ -171,4 +144,4 @@ class DemoFooter extends React.Component {
   }
 }
 
-export default DemoFooter;
+export default SimpleFooter;
