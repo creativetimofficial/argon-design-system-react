@@ -6,15 +6,20 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/scss/argon-dashboard-react.scss";
 
-import AdminLayout from "layouts/Admin.jsx";
-import AuthLayout from "layouts/Auth.jsx";
+import Index from "views/Index.jsx";
+import Landing from "views/examples/Landing.jsx";
+import Login from "views/examples/Login.jsx";
+import Profile from "views/examples/Profile.jsx";
+import Register from "views/examples/Register.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/admin" render={props => <AdminLayout {...props} />} />
-      <Route path="/auth" render={props => <AuthLayout {...props} />} />
-      <Redirect from="/" to="/admin/index" />
+      <Route path="/" render={props => <Index {...props} />} />
+      <Route path="/landing-page" render={props => <Landing {...props} />} />
+      <Route path="/login-page" render={props => <Login {...props} />} />
+      <Route path="/profile-page" render={props => <Profile {...props} />} />
+      <Route path="/register-page" render={props => <Register {...props} />} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
