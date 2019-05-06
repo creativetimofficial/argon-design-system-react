@@ -39,25 +39,17 @@ class Icons extends React.Component {
             </Row>
             <div className="blur--hover">
               <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html">
-                <div
-                  className="icons-container blur-item mt-5"
-                  data-toggle="on-screen"
-                >
-                  {/* Center */}
+                <div className="icons-container blur-item mt-5 on-screen">
                   <i className="icon ni ni-diamond" />
-                  {/* Right 1 */}
                   <i className="icon icon-sm ni ni-album-2" />
                   <i className="icon icon-sm ni ni-app" />
                   <i className="icon icon-sm ni ni-atom" />
-                  {/* Right 2 */}
                   <i className="icon ni ni-bag-17" />
                   <i className="icon ni ni-bell-55" />
                   <i className="icon ni ni-credit-card" />
-                  {/* Left 1 */}
                   <i className="icon icon-sm ni ni-briefcase-24" />
                   <i className="icon icon-sm ni ni-building" />
                   <i className="icon icon-sm ni ni-button-play" />
-                  {/* Left 2 */}
                   <i className="icon ni ni-calendar-grid-58" />
                   <i className="icon ni ni-camera-compact" />
                   <i className="icon ni ni-chart-bar-32" />
