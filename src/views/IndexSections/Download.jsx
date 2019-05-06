@@ -20,7 +20,7 @@ class Download extends React.Component {
                 <p className="lead">
                   Cause if you do, it can be yours for FREE. Hit the button
                   below to navigate to Creative Tim where you can find the
-                  Design System in HTML. Start a new project or give an old
+                  Design System in React. Start a new project or give an old
                   Bootstrap project a new look!
                 </p>
                 <div className="btn-wrapper">
@@ -29,7 +29,7 @@ class Download extends React.Component {
                     color="primary"
                     href="https://www.creative-tim.com/product/argon-design-system"
                   >
-                    Download HTML
+                    Download React
                   </Button>
                 </div>
                 <div className="text-center">
@@ -55,7 +55,7 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href=" https://www.creative-tim.com/product/vue-argon-design-system"
+                        href="https://www.creative-tim.com/product/vue-argon-design-system"
                         id="tooltip265846671"
                         target="_blank"
                       >
@@ -71,7 +71,40 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href=" https://www.sketchapp.com/"
+                        href="https://www.creative-tim.com/product/argon-design-system-angular"
+                        id="tooltip233150499"
+                        target="_blank"
+                      >
+                        <img
+                          alt="..."
+                          className="img-fluid"
+                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
+                        />
+                      </a>
+                      <UncontrolledTooltip delay={0} target="tooltip233150499">
+                        Angular - One framework. Mobile & Desktop
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <a
+                        href="https://www.creative-tim.com/product/argon-design-system-react"
+                        id="tooltip308866163"
+                        target="_blank"
+                      >
+                        <img
+                          alt="..."
+                          className="img-fluid"
+                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
+                        />
+                      </a>
+                      <UncontrolledTooltip delay={0} target="tooltip308866163">
+                        React - A JavaScript library for building user
+                        interfaces
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <a
+                        href="https://www.sketchapp.com/"
                         id="tooltip76119384"
                         target="_blank"
                       >
@@ -87,7 +120,7 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href=" https://www.adobe.com/products/photoshop.html"
+                        href="https://www.adobe.com/products/photoshop.html"
                         id="tooltip646643508"
                         target="_blank"
                       >
@@ -100,40 +133,6 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip646643508">
                         [Coming Soon] Adobe Photoshop - Software for digital
                         images manipulation
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href=" https://angularjs.org/"
-                        id="tooltip233150499"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid opacity-3"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip
-                        delay={0}
-                        target="tooltip233150499"
-                      />
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href=" https://angularjs.org/"
-                        id="tooltip308866163"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid opacity-3"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip308866163">
-                        [Coming Soon] React - A JavaScript library for building
-                        user interfaces
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
