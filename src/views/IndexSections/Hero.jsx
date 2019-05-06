@@ -44,11 +44,11 @@ class Hero extends React.Component {
                         href="https://www.creative-tim.com/product/argon-design-system"
                         size="lg"
                       >
-                        <span className="btn-inner--icon">
+                        <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
-                        <span className="btn-inner--text">Download HTML</span>
-                      </Button>
+                        <span className="btn-inner--text">Download React</span>
+                      </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
@@ -57,11 +57,11 @@ class Hero extends React.Component {
                         size="lg"
                         target="_blank"
                       >
-                        <span className="btn-inner--icon">
+                        <span className="btn-inner--icon mr-1">
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning">Star us</span>
+                          <span className="text-warning mr-1">Star us</span>
                           on Github
                         </span>
                       </Button>
@@ -72,8 +72,9 @@ class Hero extends React.Component {
                       </small>
                       <img
                         alt="..."
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
+                        className="ml-1"
                         style={{ height: "28px" }}
+                        src={require("assets/img/brand/creativetim-white-slim.png")}
                       />
                     </div>
                   </Col>
