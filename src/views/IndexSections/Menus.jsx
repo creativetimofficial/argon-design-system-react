@@ -5,6 +5,7 @@ import {
   UncontrolledCollapse,
   DropdownMenu,
   DropdownItem,
+  DropdownToggle,
   UncontrolledDropdown,
   NavbarBrand,
   Navbar,
@@ -40,19 +41,12 @@ class Menus extends React.Component {
                       Menu
                     </NavbarBrand>
                     <button
-                      aria-controls="nav-inner-primary"
-                      aria-expanded={false}
-                      aria-label="Toggle navigation"
                       className="navbar-toggler"
-                      data-target="#nav-inner-primary"
-                      data-toggle="collapse"
                       id="nav-inner-primary"
-                      type="button"
                     >
                       <span className="navbar-toggler-icon" />
                     </button>
                     <UncontrolledCollapse
-                      id="nav-inner-primary"
                       navbar
                       toggler="#nav-inner-primary"
                     >
@@ -68,12 +62,7 @@ class Menus extends React.Component {
                           </Col>
                           <Col className="collapse-close" xs="6">
                             <button
-                              aria-controls="nav-inner-primary"
-                              aria-expanded={false}
-                              aria-label="Toggle navigation"
                               className="navbar-toggler"
-                              data-target="#nav-inner-primary"
-                              data-toggle="collapse"
                               id="nav-inner-primary"
                               type="button"
                             >
@@ -100,18 +89,10 @@ class Menus extends React.Component {
                             Profile
                           </NavLink>
                         </NavItem>
-                        <UncontrolledDropdown nav>
-                          <NavLink
-                            aria-expanded={false}
-                            aria-haspopup={true}
-                            data-toggle="dropdown"
-                            href="#pablo"
-                            id="nav-inner-primary_dropdown_1"
-                            onClick={e => e.preventDefault()}
-                            role="button"
-                          >
+                        <UncontrolledDropdown nav inNavbar>
+                          <DropdownToggle nav>
                             Settings
-                          </NavLink>
+                          </DropdownToggle>
                           <DropdownMenu
                             aria-labelledby="nav-inner-primary_dropdown_1"
                             right
@@ -157,19 +138,12 @@ class Menus extends React.Component {
                       Menu
                     </NavbarBrand>
                     <button
-                      aria-controls="nav-inner-success"
-                      aria-expanded={false}
-                      aria-label="Toggle navigation"
                       className="navbar-toggler"
-                      data-target="#nav-inner-success"
-                      data-toggle="collapse"
                       id="nav-inner-success"
-                      type="button"
                     >
                       <span className="navbar-toggler-icon" />
                     </button>
                     <UncontrolledCollapse
-                      id="nav-inner-success"
                       navbar
                       toggler="#nav-inner-success"
                     >
@@ -185,14 +159,8 @@ class Menus extends React.Component {
                           </Col>
                           <Col className="collapse-close" xs="6">
                             <button
-                              aria-controls="nav-inner-success"
-                              aria-expanded={false}
-                              aria-label="Toggle navigation"
                               className="navbar-toggler"
-                              data-target="#nav-inner-success"
-                              data-toggle="collapse"
                               id="nav-inner-success"
-                              type="button"
                             >
                               <span />
                               <span />
@@ -225,22 +193,13 @@ class Menus extends React.Component {
                             </span>
                           </NavLink>
                         </NavItem>
-                        <UncontrolledDropdown nav>
-                          <NavLink
-                            aria-expanded={false}
-                            aria-haspopup={true}
-                            className="nav-link-icon"
-                            data-toggle="dropdown"
-                            href="#pablo"
-                            id="nav-inner-success_dropdown_1"
-                            onClick={e => e.preventDefault()}
-                            role="button"
-                          >
+                        <UncontrolledDropdown nav inNavbar>
+                          <DropdownToggle nav className="nav-link-icon">
                             <i className="ni ni-settings-gear-65" />
                             <span className="nav-link-inner--text d-lg-none">
                               Settings
                             </span>
-                          </NavLink>
+                          </DropdownToggle>
                           <DropdownMenu
                             aria-labelledby="nav-inner-success_dropdown_1"
                             right
