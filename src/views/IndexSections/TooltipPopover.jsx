@@ -26,13 +26,8 @@ class TooltipPopover extends React.Component {
             <Button
               className="btn-tooltip"
               color="primary"
-              data-animation={true}
-              data-container="body"
-              data-delay="100"
-              data-placement="left"
               id="tooltip38321129"
               size="sm"
-              type="button"
             >
               On left
             </Button>
@@ -46,12 +41,8 @@ class TooltipPopover extends React.Component {
             <Button
               className="btn-tooltip"
               color="primary"
-              data-animation={true}
-              data-container="body"
-              data-placement="top"
               id="tooltip556394744"
               size="sm"
-              type="button"
             >
               On top
             </Button>
@@ -65,12 +56,8 @@ class TooltipPopover extends React.Component {
             <Button
               className="btn-tooltip"
               color="primary"
-              data-animation={true}
-              data-container="body"
-              data-placement="bottom"
               id="tooltip613577679"
               size="sm"
-              type="button"
             >
               On bottom
             </Button>
@@ -84,12 +71,8 @@ class TooltipPopover extends React.Component {
             <Button
               className="btn-tooltip"
               color="primary"
-              data-animation={true}
-              data-container="body"
-              data-placement="right"
               id="tooltip476554683"
               size="sm"
-              type="button"
             >
               On right
             </Button>
@@ -105,69 +88,53 @@ class TooltipPopover extends React.Component {
             <small className="d-block text-uppercase font-weight-bold mb-3">
               Popovers
             </small>
-            <Button
-              color="default"
-              data-container="body"
-              data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-              data-placement="left"
-              id="tooltip391311689"
-              size="sm"
-              type="button"
-            >
+            <Button color="default" id="tooltip391311689" size="sm">
               On left
             </Button>
-            <UncontrolledPopover placement="left" target="tooltip391311689">
+            <UncontrolledPopover
+              trigger="focus"
+              placement="left"
+              target="tooltip391311689"
+            >
               <PopoverHeader>Popover On Left</PopoverHeader>
               <PopoverBody>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
               </PopoverBody>
             </UncontrolledPopover>
-            <Button
-              color="default"
-              data-container="body"
-              data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-              data-placement="top"
-              id="tooltip62844899"
-              size="sm"
-              type="button"
-            >
+            <Button color="default" id="tooltip62844899" size="sm">
               On top
             </Button>
-            <UncontrolledPopover placement="top" target="tooltip62844899">
+            <UncontrolledPopover
+              trigger="focus"
+              placement="top"
+              target="tooltip62844899"
+            >
               <PopoverHeader>Popover on Top</PopoverHeader>
               <PopoverBody>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
               </PopoverBody>
             </UncontrolledPopover>
-            <Button
-              color="default"
-              data-container="body"
-              data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-              data-placement="right"
-              id="tooltip969535472"
-              size="sm"
-              type="button"
-            >
+            <Button color="default" id="tooltip969535472" size="sm">
               On right
             </Button>
-            <UncontrolledPopover placement="right" target="tooltip969535472">
+            <UncontrolledPopover
+              trigger="focus"
+              placement="right"
+              target="tooltip969535472"
+            >
               <PopoverHeader>Popover on Right</PopoverHeader>
               <PopoverBody>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
               </PopoverBody>
             </UncontrolledPopover>
-            <Button
-              color="default"
-              data-container="body"
-              data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-              data-placement="bottom"
-              id="tooltip60850592"
-              size="sm"
-              type="button"
-            >
+            <Button color="default" id="tooltip60850592" size="sm">
               On bottom
             </Button>
-            <UncontrolledPopover placement="bottom" target="tooltip60850592">
+            <UncontrolledPopover
+              trigger="focus"
+              placement="bottom"
+              target="tooltip60850592"
+            >
               <PopoverHeader>Popover on Bottom</PopoverHeader>
               <PopoverBody>
                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
