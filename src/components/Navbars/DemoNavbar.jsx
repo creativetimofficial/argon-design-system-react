@@ -6,6 +6,7 @@ import {
   UncontrolledCollapse,
   DropdownMenu,
   DropdownItem,
+  DropdownToggle,
   UncontrolledDropdown,
   Media,
   NavbarBrand,
@@ -31,25 +32,15 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" href="./index.html">
-                <img alt="..." src={require("assets/img/brand/white.png")} />
+                <img
+                  alt="..."
+                  src={require("assets/img/brand/argon-react-white.png")}
+                />
               </NavbarBrand>
-              <button
-                aria-controls="navbar_global"
-                aria-expanded={false}
-                aria-label="Toggle navigation"
-                className="navbar-toggler"
-                data-target="#navbar_global"
-                data-toggle="collapse"
-                id="navbar_global"
-                type="button"
-              >
+              <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar_global"
-                navbar
-                toggler="#navbar_global"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar_global">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -61,16 +52,7 @@ class DemoNavbar extends React.Component {
                       </a>
                     </Col>
                     <Col className="collapse-close" xs="6">
-                      <button
-                        aria-controls="navbar_global"
-                        aria-expanded={false}
-                        aria-label="Toggle navigation"
-                        className="navbar-toggler"
-                        data-target="#navbar_global"
-                        data-toggle="collapse"
-                        id="navbar_global"
-                        type="button"
-                      >
+                      <button className="navbar-toggler" id="navbar_global">
                         <span />
                         <span />
                       </button>
@@ -79,15 +61,10 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                    <NavLink
-                      data-toggle="dropdown"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                      role="button"
-                    >
-                      <i className="ni ni-ui-04 d-lg-none" />
+                    <DropdownToggle nav>
+                      <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
-                    </NavLink>
+                    </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
                         <Media
@@ -97,7 +74,7 @@ class DemoNavbar extends React.Component {
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-spaceship" />
                           </div>
-                          <Media className="ml-3">
+                          <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
                               Getting started
                             </h6>
@@ -114,7 +91,7 @@ class DemoNavbar extends React.Component {
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-palette" />
                           </div>
-                          <Media className="ml-3">
+                          <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
                               Foundation
                             </h6>
@@ -131,7 +108,7 @@ class DemoNavbar extends React.Component {
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-ui-04" />
                           </div>
-                          <Media className="ml-3">
+                          <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
                               Components
                             </h5>
@@ -145,15 +122,10 @@ class DemoNavbar extends React.Component {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
-                    <NavLink
-                      data-toggle="dropdown"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                      role="button"
-                    >
-                      <i className="ni ni-collection d-lg-none" />
+                    <DropdownToggle nav>
+                      <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Examples</span>
-                    </NavLink>
+                    </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem href="./examples/landing.html">
                         Landing
@@ -179,7 +151,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none">
+                      <span className="nav-link-inner--text d-lg-none ml-2">
                         Facebook
                       </span>
                     </NavLink>
@@ -195,7 +167,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none">
+                      <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
                       </span>
                     </NavLink>
@@ -211,7 +183,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none">
+                      <span className="nav-link-inner--text d-lg-none ml-2">
                         Twitter
                       </span>
                     </NavLink>
@@ -227,7 +199,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none">
+                      <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
                       </span>
                     </NavLink>
@@ -246,7 +218,9 @@ class DemoNavbar extends React.Component {
                       <span className="btn-inner--icon">
                         <i className="fa fa-cloud-download mr-2" />
                       </span>
-                      <span className="nav-link-inner--text">Download</span>
+                      <span className="nav-link-inner--text ml-1">
+                        Download
+                      </span>
                     </Button>
                   </NavItem>
                 </Nav>
