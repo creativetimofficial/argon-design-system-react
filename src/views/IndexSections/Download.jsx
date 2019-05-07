@@ -105,35 +105,35 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.sketchapp.com/"
+                        href="https://www.creative-tim.com/product/argon-design-system-react"
                         id="tooltip76119384"
                         target="_blank"
                       >
                         <img
                           alt="..."
-                          className="img-fluid opacity-3"
+                          className="img-fluid"
                           src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
                         />
                       </a>
                       <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        [Coming Soon] Sketch - Digital design toolkit
+                        Sketch - Digital design toolkit
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.adobe.com/products/photoshop.html"
+                        href="https://www.creative-tim.com/product/argon-design-system-react"
                         id="tooltip646643508"
                         target="_blank"
                       >
                         <img
                           alt="..."
-                          className="img-fluid opacity-3"
+                          className="img-fluid"
                           src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
                         />
                       </a>
                       <UncontrolledTooltip delay={0} target="tooltip646643508">
-                        [Coming Soon] Adobe Photoshop - Software for digital
-                        images manipulation
+                        Adobe Photoshop - Software for digital images
+                        manipulation
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
