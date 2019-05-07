@@ -9,13 +9,13 @@ class Footer extends React.Component {
           <nav>
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">Creative Tim</a>
+                <a href="https://www.creative-tim.com?ref=adsr-documentation-footer">Creative Tim</a>
               </li>
               <li>
-                <a href="https://presentation.creative-tim.com">About Us</a>
+                <a href="https://presentation.creative-tim.com?ref=adsr-documentation-footer">About Us</a>
               </li>
               <li>
-                <a href="https://blog.creative-tim.com">Blog</a>
+                <a href="https://blog.creative-tim.com?ref=adsr-documentation-footer">Blog</a>
               </li>
               <li>
                 <a href="https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md">
@@ -35,7 +35,7 @@ class Footer extends React.Component {
             </a>
             . Coded by{" "}
             <a
-              href="https://www.creative-tim.com"
+              href="https://www.creative-tim.com?ref=adsr-documentation-footer"
               target="_blank"
               rel="noopener noreferrer"
             >
