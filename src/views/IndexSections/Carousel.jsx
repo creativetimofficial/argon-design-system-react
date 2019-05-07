@@ -45,7 +45,7 @@ class Carousel extends React.Component {
                 <Button
                   className="btn-white mt-4"
                   color="default"
-                  href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
+                  href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts?ref=adsr-landing-page"
                 >
                   See all components
                 </Button>

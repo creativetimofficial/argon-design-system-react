@@ -76,7 +76,7 @@ class DemoNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/overview"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/overview?ref=adsr-footer"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-spaceship" />
@@ -93,7 +93,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/colors"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/colors?ref=adsr-footer"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-palette" />
@@ -110,7 +110,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts?ref=adsr-footer"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-ui-04" />
@@ -218,7 +218,7 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react"
+                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-footer"
                       rel="noopener noreferrer"
                       target="_blank"
                     >

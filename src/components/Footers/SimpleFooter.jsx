@@ -87,7 +87,7 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © 2018{" "}
                   <a
-                    href="https://www.creative-tim.com"
+                    href="https://www.creative-tim.com?ref=adsr-footer"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -100,7 +100,7 @@ class SimpleFooter extends React.Component {
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com"
+                      href="https://www.creative-tim.com?ref=adsr-footer"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -109,7 +109,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation"
+                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -118,7 +118,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com"
+                      href="http://blog.creative-tim.com?ref=adsr-footer"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
