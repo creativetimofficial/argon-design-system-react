@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29ecc0b2e0031d48d5f003232842d74f",
+    "revision": "7965d2959ea0ee030a9075b9c5bb9b1b",
     "url": "/argon-design-system-react/index.html"
   },
   {
-    "revision": "05f48387de1757240464",
-    "url": "/argon-design-system-react/static/css/main.eeb8233f.chunk.css"
+    "revision": "e87b91906d060bf8da73",
+    "url": "/argon-design-system-react/static/css/main.2c4c31d8.chunk.css"
   },
   {
     "revision": "fde105bf7a662dbe10e7",
     "url": "/argon-design-system-react/static/js/2.e325507c.chunk.js"
   },
   {
-    "revision": "05f48387de1757240464",
+    "revision": "e87b91906d060bf8da73",
     "url": "/argon-design-system-react/static/js/main.7408259a.chunk.js"
   },
   {

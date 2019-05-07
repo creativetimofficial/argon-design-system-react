@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/argon-design-system-react/static/css/main.eeb8233f.chunk.css",
+    "main.css": "/argon-design-system-react/static/css/main.2c4c31d8.chunk.css",
     "main.js": "/argon-design-system-react/static/js/main.7408259a.chunk.js",
     "main.js.map": "/argon-design-system-react/static/js/main.7408259a.chunk.js.map",
     "runtime~main.js": "/argon-design-system-react/static/js/runtime~main.c0146943.js",
@@ -8,9 +8,9 @@
     "static/js/2.e325507c.chunk.js": "/argon-design-system-react/static/js/2.e325507c.chunk.js",
     "static/js/2.e325507c.chunk.js.map": "/argon-design-system-react/static/js/2.e325507c.chunk.js.map",
     "index.html": "/argon-design-system-react/index.html",
-    "precache-manifest.0e190a06c776daf30bf5384f866631cd.js": "/argon-design-system-react/precache-manifest.0e190a06c776daf30bf5384f866631cd.js",
+    "precache-manifest.0f531336f33766c0b2c9e14fa64481dd.js": "/argon-design-system-react/precache-manifest.0f531336f33766c0b2c9e14fa64481dd.js",
     "service-worker.js": "/argon-design-system-react/service-worker.js",
-    "static/css/main.eeb8233f.chunk.css.map": "/argon-design-system-react/static/css/main.eeb8233f.chunk.css.map",
+    "static/css/main.2c4c31d8.chunk.css.map": "/argon-design-system-react/static/css/main.2c4c31d8.chunk.css.map",
     "static/media/argon-react-white.png": "/argon-design-system-react/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/argon-design-system-react/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/argon-design-system-react/static/media/creativetim-white-slim.f7cb2d39.png",
