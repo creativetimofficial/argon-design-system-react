@@ -143,6 +143,7 @@ class Datepicker extends React.Component {
                       inputProps={{
                         placeholder: "End Date"
                       }}
+                      className="rdtPickerOnRight"
                       value={this.state.endDate}
                       timeFormat={false}
                       onChange={e =>

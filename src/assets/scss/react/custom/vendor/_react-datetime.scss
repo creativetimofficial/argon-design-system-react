@@ -3,7 +3,11 @@
 */
 .rdt {
   position: relative;
-
+  &.rdtPickerOnRight{
+    .rdtPicker{
+      right: 0;
+    }
+  }
   .rdtPicker {
     -webkit-transition: all 150ms linear;
     -moz-transition: all 150ms linear;
@@ -402,4 +406,5 @@ td.rdtYear:hover {
 .form-group .rdt {
   margin-bottom: 0;
   flex: 1 1 auto;
+  width: 1%;
 }
