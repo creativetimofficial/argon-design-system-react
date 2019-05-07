@@ -8,12 +8,18 @@
     />
     <meta
       name="description"
-      content="Start your development with a Dashboard for Bootstrap 4."
+      content="Start your development with a Design System for Bootstrap 4, React and Reactstrap."
     />
     <meta name="author" content="Creative Tim" />
-    <title>Argon Dashboard - Free Dashboard for Bootstrap 4</title>
+    <title>
+      Argon Design System React - Free Design System for Bootstrap 4
+    </title>
     <!-- Favicon -->
-    <link href="../public/apple-icon.png" rel="icon" type="image/png" />
+    <link
+      href="../src/assets/img/brand/favicon.png"
+      rel="icon"
+      type="image/png"
+    />
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
@@ -22,139 +28,284 @@
     <!-- Icons -->
     <link href="../src/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet" />
     <link
-      href="../src/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+      href="../src/assets/vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
     />
     <!-- Argon CSS -->
     <link
       type="text/css"
-      href="../src/assets/css/argon-dashboard-react.css?v=1.0.0"
+      href="../src/assets/css/argon-design-system-react.css?v=1.0.1"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <!-- Main content -->
-    <div class="main-content">
-      <!-- Top navbar -->
+    <header class="header-global">
       <nav
-        class="navbar navbar-top navbar-expand-md navbar-dark"
         id="navbar-main"
+        class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom"
       >
-        <div class="container-fluid">
-          <!-- Brand -->
-          <a
-            class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block"
-            href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/overview"
-            >Documentation</a
+        <div class="container">
+          <a class="navbar-brand mr-lg-5" href="../index.html">
+            <img src="../src/assets/img/brand/argon-react-white.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar_global"
+            aria-controls="navbar_global"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          <!-- Form -->
-          <form
-            class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"
-          >
-            <div class="form-group mb-0">
-              <div class="input-group input-group-alternative">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"
-                    ><i class="fas fa-search"></i
-                  ></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar_global">
+            <div class="navbar-collapse-header">
+              <div class="row">
+                <div class="col-6 collapse-brand">
+                  <a href="../index.html">
+                    <img src="../src/assets/img/brand/blue.png" />
+                  </a>
                 </div>
-                <input class="form-control" placeholder="Search" type="text" />
+                <div class="col-6 collapse-close">
+                  <button
+                    type="button"
+                    class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbar_global"
+                    aria-controls="navbar_global"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span></span> <span></span>
+                  </button>
+                </div>
               </div>
             </div>
-          </form>
-          <!-- User -->
-          <ul class="navbar-nav align-items-center d-none d-md-flex">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link pr-0"
-                href="#"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <div class="media align-items-center">
-                  <span class="avatar avatar-sm rounded-circle">
-                    <img
-                      alt="Image placeholder"
-                      src="../src/assets/img/theme/team-4-800x800.jpg"
-                    />
-                  </span>
-                  <div class="media-body ml-2 d-none d-lg-block">
-                    <span class="mb-0 text-sm  font-weight-bold"
-                      >Jessica Jones</span
+            <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                >
+                  <i class="ni ni-ui-04 d-lg-none"></i>
+                  <span class="nav-link-inner--text">Components</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-xl">
+                  <div class="dropdown-menu-inner">
+                    <a
+                      href="https://demos.creative-tim.com/argon-design-system-react/documentation/overview?ref=adsr-static-docs"
+                      class="media d-flex align-items-center"
                     >
+                      <div
+                        class="icon icon-shape bg-gradient-primary rounded-circle text-white"
+                      >
+                        <i class="ni ni-spaceship"></i>
+                      </div>
+                      <div class="media-body ml-3">
+                        <h6 class="heading text-primary mb-md-1">
+                          Getting started
+                        </h6>
+                        <p class="description d-none d-md-inline-block mb-0">
+                          Learn how to use Argon compiling Scss, change brand
+                          colors and more.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      href="https://demos.creative-tim.com/argon-design-system-react/documentation/colors?ref=adsr-static-docs"
+                      class="media d-flex align-items-center"
+                    >
+                      <div
+                        class="icon icon-shape bg-gradient-success rounded-circle text-white"
+                      >
+                        <i class="ni ni-palette"></i>
+                      </div>
+                      <div class="media-body ml-3">
+                        <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                        <p class="description d-none d-md-inline-block mb-0">
+                          Learn more about colors, typography, icons and the
+                          grid system we used for Argon.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts?ref=adsr-static-docs"
+                      class="media d-flex align-items-center"
+                    >
+                      <div
+                        class="icon icon-shape bg-gradient-warning rounded-circle text-white"
+                      >
+                        <i class="ni ni-ui-04"></i>
+                      </div>
+                      <div class="media-body ml-3">
+                        <h5 class="heading text-warning mb-md-1">Components</h5>
+                        <p class="description d-none d-md-inline-block mb-0">
+                          Browse our 50 beautiful handcrafted components offered
+                          in the Free version.
+                        </p>
+                      </div>
+                    </a>
                   </div>
                 </div>
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-arrow dropdown-menu-right"
-              >
-                <div class=" dropdown-header noti-title">
-                  <h6 class="text-overflow m-0">Welcome!</h6>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                >
+                  <i class="ni ni-collection d-lg-none"></i>
+                  <span class="nav-link-inner--text">Examples</span>
+                </a>
+                <div class="dropdown-menu">
+                  <a href="../examples/landing.html" class="dropdown-item"
+                    >Landing</a
+                  >
+                  <a href="../examples/profile.html" class="dropdown-item"
+                    >Profile</a
+                  >
+                  <a href="../examples/login.html" class="dropdown-item"
+                    >Login</a
+                  >
+                  <a href="../examples/register.html" class="dropdown-item"
+                    >Register</a
+                  >
                 </div>
-                <a href="#pablo" class="dropdown-item">
-                  <i class="ni ni-single-02"></i> <span>My profile</span>
+              </li>
+            </ul>
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://www.facebook.com/creativetim"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Like us on Facebook"
+                >
+                  <i class="fa fa-facebook-square"></i>
+                  <span class="nav-link-inner--text d-lg-none">Facebook</span>
                 </a>
-                <a href="#pablo" class="dropdown-item">
-                  <i class="ni ni-settings-gear-65"></i> <span>Settings</span>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://www.instagram.com/creativetimofficial"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Follow us on Instagram"
+                >
+                  <i class="fa fa-instagram"></i>
+                  <span class="nav-link-inner--text d-lg-none">Instagram</span>
                 </a>
-                <a href="#pablo" class="dropdown-item">
-                  <i class="ni ni-calendar-grid-58"></i> <span>Activity</span>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://twitter.com/creativetim"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Follow us on Twitter"
+                >
+                  <i class="fa fa-twitter-square"></i>
+                  <span class="nav-link-inner--text d-lg-none">Twitter</span>
                 </a>
-                <a href="#pablo" class="dropdown-item">
-                  <i class="ni ni-support-16"></i> <span>Support</span>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://github.com/creativetimofficial/argon-design-system-react"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Star us on Github"
+                >
+                  <i class="fa fa-github"></i>
+                  <span class="nav-link-inner--text d-lg-none">Github</span>
                 </a>
-                <div class="dropdown-divider"></div>
-                <a href="#pablo" class="dropdown-item">
-                  <i class="ni ni-user-run"></i> <span>Logout</span>
+              </li>
+              <li class="nav-item d-none d-lg-block ml-lg-4">
+                <a
+                  href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-static-docs"
+                  target="_blank"
+                  class="btn btn-neutral btn-icon"
+                >
+                  <span class="btn-inner--icon">
+                    <i class="fa fa-cloud-download mr-2"></i>
+                  </span>
+                  <span class="nav-link-inner--text">Download</span>
                 </a>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-      <!-- Header -->
-      <div
-        class="header bg-gradient-primary pb-8 pt-5 pt-lg-8 d-flex align-items-center"
-      >
-        <!-- Header container -->
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10 text-center">
-              <h1 class="display-2 text-white">
-                Documentation <small>v1.0.0</small>
-              </h1>
-              <p class="text-white mt-0 mb-5">
-                We are constatly doing updates on the product and documentation,
-                so please check the online version.
-              </p>
+    </header>
+    <main>
+      <div class="position-relative">
+        <section class="section section-lg section-hero section-shaped">
+          <!-- Background circles -->
+          <div class="shape shape-style-1 shape-primary">
+            <span class="span-150"></span> <span class="span-50"></span>
+            <span class="span-50"></span> <span class="span-75"></span>
+            <span class="span-100"></span> <span class="span-75"></span>
+            <span class="span-50"></span> <span class="span-100"></span>
+            <span class="span-50"></span> <span class="span-100"></span>
+          </div>
+          <div
+            class="container shape-container d-flex align-items-center py-lg"
+          >
+            <div class="col px-0">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <img
+                    src="../src/assets/img/brand/argon-react-white.png"
+                    style="width: 200px;"
+                    class="img-fluid"
+                  />
+                  <p class="lead text-white">
+                    We are constantly doing updates on the product and
+                    documentation, so please check the onshape version.
+                  </p>
+                  <div class="btn-wrapper mt-5">
+                    <a
+                      href="https://demos.creative-tim.com/argon-design-system-react/documentation/overview?ref=adsr-static-docs"
+                      class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0"
+                    >
+                      <span class="btn-inner--icon"
+                        ><i class="ni ni-cloud-download-95"></i
+                      ></span>
+                      <span class="btn-inner--text">Open Docs</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Page content -->
-      <div class="container-fluid mt--7">
-        <div class="row justify-content-center">
-          <div class="col-lg-4">
-            <div class="card bg-gradient-default text-center p-5">
-              <a
-                href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/overview"
-                class="btn btn-white btn-icon mb-3 mb-sm-0"
-              >
-                <span class="btn-inner--icon"
-                  ><i class="ni ni-collection"></i
-                ></span>
-                <span class="btn-inner--text">View Docs Online</span>
-              </a>
-            </div>
+          <!-- SVG separator -->
+          <div class="separator separator-bottom separator-skew zindex-100">
+            <svg
+              x="0"
+              y="0"
+              viewBox="0 0 2560 100"
+              preserveAspectRatio="none"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                class="fill-white"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
           </div>
-        </div>
-        <!-- Footer -->
+        </section>
       </div>
-    </div>
-    <!-- Argon Scripts -->
+    </main>
     <!-- Core -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
