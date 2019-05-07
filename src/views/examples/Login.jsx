@@ -104,7 +104,11 @@ class Login extends React.Component {
                                 <i className="ni ni-lock-circle-open" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="Password" type="password" />
+                            <Input
+                              placeholder="Password"
+                              type="password"
+                              autoComplete="off"
+                            />
                           </InputGroup>
                         </FormGroup>
                         <div className="custom-control custom-control-alternative custom-checkbox">

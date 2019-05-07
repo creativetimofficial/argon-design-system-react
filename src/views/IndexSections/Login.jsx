@@ -144,6 +144,7 @@ class Login extends React.Component {
                             <Input
                               placeholder="Password"
                               type="password"
+                              autoComplete="off"
                               onFocus={e =>
                                 this.setState({ passwordFocused: true })
                               }
