@@ -1,9 +1,44 @@
 import React from "react";
-
+// plugin that creates slider
+import Slider from "nouislider";
 // reactstrap components
 import { Row, Col } from "reactstrap";
 
 class CustomControls extends React.Component {
+  state = {
+    simpleValue: 100.0,
+    rangeLow: 200.0,
+    rangeHigh: 400.0
+  };
+  componentDidMount() {
+    // slider1 init
+    var slider1 = this.refs.slider1;
+    Slider.create(slider1, {
+      start: [0.0],
+      connect: [true, false],
+      step: 0.01,
+      range: { min: 100.0, max: 500.0 }
+    }).on(
+      "update",
+      function(values, handle) {
+        this.setState({ simpleValue: values[0] });
+      }.bind(this)
+    );
+
+    // slider2 init
+    var slider2 = this.refs.slider2;
+    Slider.create(slider2, {
+      start: [200.0, 400.0],
+      connect: [false, true, false],
+      step: 0.01,
+      range: { min: 100.0, max: 500.0 }
+    }).on(
+      "update",
+      function(values, handle) {
+        this.setState({ rangeLow: values[0], rangeHigh: values[1] });
+      }.bind(this)
+    );
+  }
   render() {
     return (
       <>
@@ -137,46 +172,29 @@ class CustomControls extends React.Component {
             </div>
             {/* Simple slider */}
             <div className="input-slider-container">
-              <div
-                className="input-slider"
-                data-range-value-max="500"
-                data-range-value-min="100"
-                id="input-slider"
-              />
-              {/* Input slider values */}
+              <div className="slider" ref="slider1" />
               <Row className="mt-3 d-none">
                 <Col xs="6">
-                  <span
-                    className="range-slider-value"
-                    data-range-value-low="100"
-                    id="input-slider-value"
-                  />
+                  <span className="range-slider-value">
+                    {this.state.simpleValue}
+                  </span>
                 </Col>
               </Row>
             </div>
             {/* Range slider */}
             <div className="mt-5">
               {/* Range slider container */}
-              <div
-                data-range-value-max="500"
-                data-range-value-min="100"
-                id="input-slider-range"
-              />
-              {/* Range slider values */}
+              <div className="slider" ref="slider2" />
               <Row className="d-none">
                 <Col xs="6">
-                  <span
-                    className="range-slider-value value-low"
-                    data-range-value-low="200"
-                    id="input-slider-range-value-low"
-                  />
+                  <span className="range-slider-value value-low">
+                    {this.state.rangeLow}
+                  </span>
                 </Col>
                 <Col className="text-right" xs="6">
-                  <span
-                    className="range-slider-value value-high"
-                    data-range-value-high="400"
-                    id="input-slider-range-value-high"
-                  />
+                  <span className="range-slider-value value-high">
+                    {this.state.rangeHigh}
+                  </span>
                 </Col>
               </Row>
             </div>
