@@ -209,7 +209,11 @@ var docsRoutes = [
         component: Datetimepicker,
         name: "DateTimePicker"
       },
-      { path: "/documentation/headroom", component: Headroom, name: "Headroom" },
+      {
+        path: "/documentation/headroom",
+        component: Headroom,
+        name: "Headroom"
+      },
       { path: "/documentation/sliders", component: Sliders, name: "Sliders" }
     ]
   },
