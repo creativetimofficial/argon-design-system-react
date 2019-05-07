@@ -41,7 +41,7 @@ class SimpleFooter extends React.Component {
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className=" btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
                   id="tooltip383967593"
@@ -54,7 +54,7 @@ class SimpleFooter extends React.Component {
                   Like us
                 </UncontrolledTooltip>
                 <Button
-                  className=" btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
                   id="tooltip568564532"
@@ -67,7 +67,7 @@ class SimpleFooter extends React.Component {
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className=" btn-neutral btn-icon-only btn-round"
+                  className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="github"
                   href="https://github.com/creativetimofficial"
                   id="tooltip626177562"

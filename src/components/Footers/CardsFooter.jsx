@@ -68,7 +68,7 @@ class CardsFooter extends React.Component {
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className="btn-neutral btn-icon-only btn-round ml-1"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
                   id="tooltip837440414"
@@ -81,7 +81,7 @@ class CardsFooter extends React.Component {
                   Like us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className="btn-neutral btn-icon-only btn-round ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
                   id="tooltip829810202"
@@ -94,7 +94,7 @@ class CardsFooter extends React.Component {
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className="btn-neutral btn-icon-only btn-round ml-1"
                   color="github"
                   href="https://github.com/creativetimofficial"
                   id="tooltip495507257"
