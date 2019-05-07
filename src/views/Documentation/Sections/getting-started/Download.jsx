@@ -23,7 +23,7 @@ class Download extends React.Component {
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-download-docs-page">
+            <a href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-download-docs-page">
               Download from Creative Tim
             </a>
           </li>

@@ -39,7 +39,7 @@ class Header extends React.Component {
             <NavItem>
               <NavLink
                 className="nav-link-icon"
-                href="https://www.facebook.com/creativetim?ref=adr-documentation-header"
+                href="https://www.facebook.com/creativetim?ref=adsr-documentation-header"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -49,7 +49,7 @@ class Header extends React.Component {
             <NavItem>
               <NavLink
                 className="nav-link-icon"
-                href="https://twitter.com/creativetim?ref=adr-documentation-header"
+                href="https://twitter.com/creativetim?ref=adsr-documentation-header"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -59,7 +59,7 @@ class Header extends React.Component {
             <NavItem>
               <NavLink
                 className="nav-link-icon"
-                href="https://www.instagram.com/creativetimofficial?ref=adr-documentation-header"
+                href="https://www.instagram.com/creativetimofficial?ref=adsr-documentation-header"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -69,7 +69,7 @@ class Header extends React.Component {
             <NavItem>
               <NavLink
                 className="nav-link-icon"
-                href="https://www.instagram.com/creativetimofficial?ref=adr-documentation-header"
+                href="https://www.instagram.com/creativetimofficial?ref=adsr-documentation-header"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -79,7 +79,7 @@ class Header extends React.Component {
             <NavItem>
               <NavLink
                 className="nav-link-icon"
-                href="https://github.com/creativetimofficial?ref=adr-documentation-header"
+                href="https://github.com/creativetimofficial?ref=adsr-documentation-header"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -91,7 +91,7 @@ class Header extends React.Component {
         <Button
           className="btn-icon ml-sm-3 d-none d-md-block"
           color="neutral"
-          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-documentation-header"
+          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-documentation-header"
           target="_blank"
         >
           <span className="btn-inner--icon">

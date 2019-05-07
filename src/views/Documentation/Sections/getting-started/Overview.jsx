@@ -143,7 +143,7 @@ class Overview extends React.Component {
           </li>
           <li>
             Read and subscribe to{" "}
-            <a href="http://blog.creative-tim.com?ref=adr-documentation-sidebar">
+            <a href="http://blog.creative-tim.com?ref=adsr-documentation-sidebar">
               The Official Creative Tim Blog
             </a>
             .

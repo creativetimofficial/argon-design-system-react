@@ -41,7 +41,7 @@ class QuickStart extends React.Component {
           <li>
             Go to{" "}
             <a
-              href="https://www.creative-tim.com/?ref=adr-quick-start-docs-page"
+              href="https://www.creative-tim.com/?ref=adsr-quick-start-docs-page"
               target="_blank"
             >
               creative tim website
@@ -51,7 +51,7 @@ class QuickStart extends React.Component {
           <li>
             Go to the{" "}
             <a
-              href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-quick-start-docs-page"
+              href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-quick-start-docs-page"
               target="_blank"
             >
               product page
