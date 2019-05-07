@@ -279,9 +279,100 @@ class Colors extends React.Component {
           layout without losing warmth and cleanliness, and are therefore often
           used as a background color for web components.
         </p>
-        <Table className="table-colors">
-          <tbody />
-        </Table>
+        <table class="table table-colors">
+          <tbody>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#f6f9fc"}}></div>
+                Gray 100
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #f6f9fc
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#e9ecef"}}></div>
+                Gray 200
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #e9ecef
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#dee2e6"}}></div>
+                Gray 300
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #dee2e6
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#ced4da"}}></div>
+                Gray 400
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #ced4da
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#adb5bd"}}></div>
+                Gray 500
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #adb5bd
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#8898aa"}}></div>
+                Gray 600
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #8898aa
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#525f7f"}}></div>
+                Gray 700
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #525f7f
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#32325d"}}></div>
+                Gray 800
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #32325d
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="swatch" style={{backgroundColor: "#212529"}}></div>
+                Gray 900
+              </td>
+              <td>
+                <div class="lozenge">Hex</div>
+                #212529
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </>
     );
   }
