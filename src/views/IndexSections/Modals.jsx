@@ -164,18 +164,18 @@ class Modals extends React.Component {
             >
               <div className="modal-body p-0">
                 <Card className="bg-secondary shadow border-0">
-                  <CardHeader className="bg-transparent pb-5">
-                    <div className="text-muted text-center mt-2 mb-3">
+                  <CardHeader className="bg-white pb-5">
+                    <div className="text-muted text-center mb-3">
                       <small>Sign in with</small>
                     </div>
                     <div className="btn-wrapper text-center">
                       <Button
-                        className="btn-neutral btn-icon"
-                        color="default"
+                        className="btn-icon mt-2 mb-2"
+                        color="neutral"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        <span className="btn-inner--icon">
+                        <span className="btn-inner--icon mr-1">
                           <img
                             alt="..."
                             src={require("assets/img/icons/common/github.svg")}
@@ -184,12 +184,12 @@ class Modals extends React.Component {
                         <span className="btn-inner--text">Github</span>
                       </Button>
                       <Button
-                        className="btn-neutral btn-icon"
-                        color="default"
+                        className="btn-icon mt-2 mb-2 ml-1"
+                        color="neutral"
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        <span className="btn-inner--icon">
+                        <span className="btn-inner--icon mr-1">
                           <img
                             alt="..."
                             src={require("assets/img/icons/common/google.svg")}
