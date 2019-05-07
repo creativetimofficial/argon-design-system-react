@@ -1,8 +1,6 @@
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { prism } from "react-syntax-highlighter/dist/styles/prism";
-// JavaScript plugin that hides or shows a component based on your scroll
-import Headroom from "headroom.js";
 
 const codeSample = `import React from "react";
 // JavaScript plugin that hides or shows a component based on your scroll
