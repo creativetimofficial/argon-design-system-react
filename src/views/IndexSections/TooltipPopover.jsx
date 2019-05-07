@@ -35,6 +35,7 @@ class TooltipPopover extends React.Component {
               delay={0}
               placement="left"
               target="tooltip38321129"
+              trigger="hover focus"
             >
               Tooltip on left
             </UncontrolledTooltip>
@@ -50,6 +51,7 @@ class TooltipPopover extends React.Component {
               delay={0}
               placement="top"
               target="tooltip556394744"
+              trigger="hover focus"
             >
               Tooltip on top
             </UncontrolledTooltip>
@@ -65,6 +67,7 @@ class TooltipPopover extends React.Component {
               delay={0}
               placement="bottom"
               target="tooltip613577679"
+              trigger="hover focus"
             >
               Tooltip on bottom
             </UncontrolledTooltip>
@@ -80,6 +83,7 @@ class TooltipPopover extends React.Component {
               delay={0}
               placement="right"
               target="tooltip476554683"
+              trigger="hover focus"
             >
               Tooltip on right
             </UncontrolledTooltip>
