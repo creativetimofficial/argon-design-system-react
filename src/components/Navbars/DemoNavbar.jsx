@@ -221,7 +221,7 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react"
+                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-footer"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
