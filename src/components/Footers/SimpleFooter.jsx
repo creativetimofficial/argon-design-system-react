@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 // reactstrap components
 import {
@@ -88,7 +89,6 @@ class SimpleFooter extends React.Component {
                   © 2018{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
-                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     Creative Tim
@@ -101,7 +101,6 @@ class SimpleFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       Creative Tim
@@ -110,7 +109,6 @@ class SimpleFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       About Us
@@ -119,7 +117,6 @@ class SimpleFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="http://blog.creative-tim.com?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       Blog
@@ -128,7 +125,6 @@ class SimpleFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       MIT License

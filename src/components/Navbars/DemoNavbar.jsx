@@ -219,7 +219,6 @@ class DemoNavbar extends React.Component {
                       className="btn-neutral btn-icon"
                       color="default"
                       href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">

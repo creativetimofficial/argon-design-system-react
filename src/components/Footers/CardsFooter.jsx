@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -115,7 +116,6 @@ class CardsFooter extends React.Component {
                   © 2018{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
-                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     Creative Tim
@@ -128,7 +128,6 @@ class CardsFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       Creative Tim
@@ -137,7 +136,6 @@ class CardsFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       About Us
@@ -146,7 +144,6 @@ class CardsFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="http://blog.creative-tim.com?ref=adsr-footer"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       Blog
@@ -155,7 +152,6 @@ class CardsFooter extends React.Component {
                   <NavItem>
                     <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       MIT License
