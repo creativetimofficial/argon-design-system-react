@@ -26,7 +26,6 @@ class Icons extends React.Component {
                     className="mt-3 mt-md-0"
                     color="default"
                     href="https://nucleoapp.com/?ref=1712"
-                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     View all icons
