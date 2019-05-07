@@ -59,8 +59,8 @@ class QuickStart extends React.Component {
             (be sure to be logged into your account)
           </li>
           <li>
-            Press the download button near <b>Argon Design System React</b> product
-            (this will download onto your computer a zip file)
+            Press the download button near <b>Argon Design System React</b>{" "}
+            product (this will download onto your computer a zip file)
           </li>
           <li>Unzip the downloaded file to a folder in your computer</li>
           <li>Open Terminal</li>
@@ -195,7 +195,10 @@ class QuickStart extends React.Component {
         </ul>
         <h2 id="live-production">Live Production</h2>
         <p>
-          We deploy our products using github pages (gh-pages), this requires that inside the package.json file to have a homepage prop. If you wish to build the product locally or deploy it somewhere, you will either need to change this prop, or delete it altogether.
+          We deploy our products using github pages (gh-pages), this requires
+          that inside the package.json file to have a homepage prop. If you wish
+          to build the product locally or deploy it somewhere, you will either
+          need to change this prop, or delete it altogether.
         </p>
         <p>
           These are some free open source tutorial on how to deploy a React app

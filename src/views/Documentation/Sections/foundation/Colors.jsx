@@ -283,7 +283,7 @@ class Colors extends React.Component {
           <tbody>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#f6f9fc"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#f6f9fc" }} />
                 Gray 100
               </td>
               <td>
@@ -293,7 +293,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#e9ecef"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#e9ecef" }} />
                 Gray 200
               </td>
               <td>
@@ -303,7 +303,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#dee2e6"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#dee2e6" }} />
                 Gray 300
               </td>
               <td>
@@ -313,7 +313,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#ced4da"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#ced4da" }} />
                 Gray 400
               </td>
               <td>
@@ -323,7 +323,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#adb5bd"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#adb5bd" }} />
                 Gray 500
               </td>
               <td>
@@ -333,7 +333,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#8898aa"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#8898aa" }} />
                 Gray 600
               </td>
               <td>
@@ -343,7 +343,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#525f7f"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#525f7f" }} />
                 Gray 700
               </td>
               <td>
@@ -353,7 +353,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#32325d"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#32325d" }} />
                 Gray 800
               </td>
               <td>
@@ -363,7 +363,7 @@ class Colors extends React.Component {
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{backgroundColor: "#212529"}}></div>
+                <div class="swatch" style={{ backgroundColor: "#212529" }} />
                 Gray 900
               </td>
               <td>
