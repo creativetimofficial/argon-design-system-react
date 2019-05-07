@@ -1,0 +1,55 @@
+body.docs{
+  background: white;
+  .ct-example .navbar {
+    z-index: 2;
+  }
+}
+.docs .ct-example .btn:not(.btn-block) + .btn{
+  margin-left: 5px;
+}
+
+.docs .ct-example .btn-group .btn + .btn{
+  margin: 4px 0;
+}
+
+.docs .ct-example .btn-group + .btn-group{
+  margin-left: 5px;
+}
+
+.docs .ct-sidebar,.docs .ct-navbar{
+  position: sticky;
+}
+
+.docs .ct-navbar .navbar-brand{
+  position: unset;
+}
+.docs .ct-example.ct-color-schemes .navbar-toggler{
+  pointer-events: none;
+}
+.docs .ct-navbar{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.ct-react-docs .text-white i{
+  color: #fff!important;
+}
+.ct-react-docs .ct-lead{
+  line-height: 1.7;
+}
+.ct-react-docs pre[style]{
+  background-color: #f5f7ff !important;
+}
+.ct-react-docs .ct-example-row .ct-example,
+.ct-react-docs .ct-example{
+  padding: 1.25rem;
+  border: 1px solid #e6ecf1;
+  border-radius: .25rem;
+  background-color: #f5f7f9;
+}
+.navbar-dark .navbar-nav .nav-link,
+.alert .alert-inner--icon,
+.btn .btn-inner--icon{
+  .ni{
+    color: rgba(255, 255, 255, 0.95) !important;
+  }
+}
