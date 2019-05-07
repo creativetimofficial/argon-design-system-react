@@ -29,13 +29,10 @@ import Navbar from "views/Documentation/Sections/restyled-components/Navbar.jsx"
 import Pagination from "views/Documentation/Sections/restyled-components/Pagination.jsx";
 import Popovers from "views/Documentation/Sections/restyled-components/Popovers.jsx";
 import Progress from "views/Documentation/Sections/restyled-components/Progress.jsx";
-// import Tables from "views/Documentation/Sections/restyled-components/Tables.jsx";
 import Tooltips from "views/Documentation/Sections/restyled-components/Tooltips.jsx";
 // Plugins
-// import Charts from "views/Documentation/Sections/plugins/Charts.jsx";
-// import CopyToClipboard from "views/Documentation/Sections/plugins/CopyToClipboard.jsx";
 import Datetimepicker from "views/Documentation/Sections/plugins/Datetimepicker.jsx";
-// import Maps from "views/Documentation/Sections/plugins/Maps.jsx";
+import Headroom from "views/Documentation/Sections/plugins/Headroom.jsx";
 import Sliders from "views/Documentation/Sections/plugins/Sliders.jsx";
 
 var docsRoutes = [
@@ -196,11 +193,6 @@ var docsRoutes = [
         component: Progress,
         name: "Progress"
       },
-      // {
-      //   path: "/documentation/tables",
-      //   component: Tables,
-      //   name: "Tables"
-      // },
       {
         path: "/documentation/tooltips",
         component: Tooltips,
@@ -212,18 +204,12 @@ var docsRoutes = [
     name: "Plugins",
     path: "/documentation/charts",
     routes: [
-      // { path: "/documentation/charts", component: Charts, name: "Charts" },
-      // {
-      //   path: "/documentation/copy-to-clipboard",
-      //   component: CopyToClipboard,
-      //   name: "Copy To Clipboard"
-      // },
       {
         path: "/documentation/date-time-picker",
         component: Datetimepicker,
         name: "DateTimePicker"
       },
-      // { path: "/documentation/maps", component: Maps, name: "Maps" },
+      { path: "/documentation/headroom", component: Headroom, name: "Headroom" },
       { path: "/documentation/sliders", component: Sliders, name: "Sliders" }
     ]
   },
