@@ -27,7 +27,7 @@ class Header extends React.Component {
           </NavItem>
           <NavItem>
             <NavLink
-              href="https://github.com/creativetimofficial/argon-dashboard-react/issues"
+              href="https://github.com/creativetimofficial/argon-design-system-react/issues"
               target="_blank"
             >
               Support
@@ -91,7 +91,7 @@ class Header extends React.Component {
         <Button
           className="btn-icon ml-sm-3 d-none d-md-block"
           color="neutral"
-          href="https://www.creative-tim.com/product/argon-dashboard-react?ref=adr-documentation-header"
+          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-documentation-header"
           target="_blank"
         >
           <span className="btn-inner--icon">

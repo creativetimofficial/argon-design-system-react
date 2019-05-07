@@ -17,13 +17,13 @@ class QuickStart extends React.Component {
           We provide all the necessary CSS resources. So, to immediately change
           or get started with our design, include the{" "}
           <code className="highlighter-rouge">
-            src/assets/css/argon-dashboard-react.css
+            src/assets/css/argon-design-system-react.css
           </code>{" "}
           in your template. Or you can include the whole scss from our product (
           <code className="highlighter-rouge">src/assets/scss/{`*`}</code>) and
           then import the{" "}
           <code className="highlighter-rouge">
-            src/assets/scss/argon-dashboard-react.scss
+            src/assets/scss/argon-design-system-react.scss
           </code>{" "}
           file inside your <code className="highlighter-rouge">index.js</code>.
           Your project will get the new look.
@@ -51,7 +51,7 @@ class QuickStart extends React.Component {
           <li>
             Go to the{" "}
             <a
-              href="https://www.creative-tim.com/product/argon-dashboard-react?ref=adr-quick-start-docs-page"
+              href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-quick-start-docs-page"
               target="_blank"
             >
               product page
@@ -232,11 +232,11 @@ class QuickStart extends React.Component {
           our styles inside your app like so:
         </p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/scss/argon-dashboard-react.scss";`}
+          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/scss/argon-design-system-react.scss";`}
         </SyntaxHighlighter>
         <p>Or you can import our compiled scss</p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/css/argon-dashboard-react.css";\n// import "assets/css/argon-dashboard-react.min.css";\n// import "assets/css/argon-dashboard-react.css.map";`}
+          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/css/argon-design-system-react.css";\n// import "assets/css/argon-design-system-react.min.css";\n// import "assets/css/argon-design-system-react.css.map";`}
         </SyntaxHighlighter>
         <h2 id="fonts-and-icons">Fonts and Icons</h2>
         <p>

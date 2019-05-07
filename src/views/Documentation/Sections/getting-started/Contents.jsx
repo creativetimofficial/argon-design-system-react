@@ -20,9 +20,9 @@ const fileStructure = `Argon Dashboard React
 └── src
     ├── assets
     │   ├── css
-    │   │   ├── argon-dashboard-react.css
-    │   │   ├── argon-dashboard-react.css.map
-    │   │   └── argon-dashboard-react.min.css
+    │   │   ├── argon-design-system-react.css
+    │   │   ├── argon-design-system-react.css.map
+    │   │   └── argon-design-system-react.min.css
     │   ├── fonts
     │   │   └── nucleo
     │   ├── img
@@ -31,7 +31,7 @@ const fileStructure = `Argon Dashboard React
     │   │   │   └── common
     │   │   └── theme
     │   ├── scss
-    │   │   ├── argon-dashboard-react.scss
+    │   │   ├── argon-design-system-react.scss
     │   │   ├── bootstrap
     │   │   │   ├── mixins
     │   │   │   └── utilities

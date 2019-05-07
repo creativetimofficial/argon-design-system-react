@@ -85,19 +85,17 @@ class Overview extends React.Component {
         </p>
         <ul>
           <li>
-            <a href="https://www.getbootstrap.com?ref=creativetim">
-              Bootstrap 4
-            </a>
-            - Open source front end framework
+            <a href="https://www.getbootstrap.com">Bootstrap 4</a> - Open source
+            front end framework
           </li>
           <li>
-            <a href="https://reactjs.org/?ref=creativetim">React</a>- Easy to
+            <a href="https://reactjs.org/?ref=creativetim">React</a> - Easy to
             use React Bootstrap 4 components
           </li>
           <li>
             <a href="https://facebook.github.io/create-react-app/?ref=creativetim">
               create-react-app
-            </a>
+            </a>{" "}
             - Whether you’re using React or another library, Create React App
             lets you focus on code, not build tools.
           </li>
@@ -107,23 +105,28 @@ class Overview extends React.Component {
               target="_blank"
             >
               Reactstrap
-            </a>
+            </a>{" "}
             - Easy to use React Bootstrap 4 components
           </li>
           <li>
-            <a
-              href="https://fonts.google.com/specimen/Open+Sans?ref=creativetim"
-              target="_blank"
-            >
+            <a href="https://refreshless.com/nouislider/">noUISlider</a> -
+            JavaScript Range Slider
+          </li>
+          <li>
+            <a href="https://fonts.google.com/specimen/Open+Sans">
               Open Sans Font
-            </a>
+            </a>{" "}
             - Google’s Open Source typefaces
           </li>
           <li>
-            <a href="https://github.com/stripe/elements-examples/#example-1?ref=creativetim">
+            <a href="https://github.com/stripe/elements-examples/#example-1">
               Stripe Elements
-            </a>
+            </a>{" "}
             - Forms, Buttons and Elements
+          </li>
+          <li>
+            <a href="https://webgradients.com/">WebGradients</a> - A curated
+            collection of splendid gradients made in CSS3
           </li>
         </ul>
         <h3 id="learn-more">Learn more</h3>

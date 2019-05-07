@@ -18,12 +18,12 @@ class Download extends React.Component {
         <h2 id="download">Download</h2>
         <ul>
           <li>
-            <a href="https://github.com/creativetimofficial/argon-dashboard-react/archive/master.zip">
+            <a href="https://github.com/creativetimofficial/argon-design-system-react/archive/master.zip">
               Download from Github
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/product/argon-dashboard-react?ref=adr-download-docs-page">
+            <a href="https://www.creative-tim.com/product/argon-design-system-react?ref=adr-download-docs-page">
               Download from Creative Tim
             </a>
           </li>
@@ -34,7 +34,7 @@ class Download extends React.Component {
             <p>
               Install with Npm:{" "}
               <code className="highlighter-rouge">
-                npm i @creative-tim-official/argon-dashboard-react
+                npm i @creative-tim-official/argon-design-system-react
               </code>
             </p>
           </li>
@@ -42,7 +42,7 @@ class Download extends React.Component {
             <p>
               Install with Yarn:{" "}
               <code className="highlighter-rouge">
-                yarn add @creative-tim-official/argon-dashboard-react
+                yarn add @creative-tim-official/argon-design-system-react
               </code>
             </p>
           </li>
@@ -51,7 +51,7 @@ class Download extends React.Component {
               Install with Composer:{" "}
               <code className="highlighter-rouge">
                 composer create-project
-                creativetimofficial/argon-dashboard-react
+                creativetimofficial/argon-design-system-react
               </code>
             </p>
           </li>
@@ -60,7 +60,7 @@ class Download extends React.Component {
               Clone from Github:{" "}
               <code className="highlighter-rouge">
                 git clone
-                https://github.com/creativetimofficial/argon-dashboard-react.git
+                https://github.com/creativetimofficial/argon-design-system-react.git
               </code>
             </p>
           </li>
