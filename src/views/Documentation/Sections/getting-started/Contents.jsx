@@ -4,7 +4,7 @@ import { prism } from "react-syntax-highlighter/dist/styles/prism";
 // reactstrap components
 import { Card, Row, Col } from "reactstrap";
 
-const fileStructure = `Argon Dashboard React
+const fileStructure = `Argon Design System React
 .
 ├── Documentation
 │   └── documentation.html
@@ -123,10 +123,10 @@ class Contents extends React.Component {
           <div className="avatar-group mt-3" />
         </div>
         <p className="ct-lead">
-          Discover what's included in Argon Dashboard React
+          Discover what's included in Argon Design System React
         </p>
         <hr />
-        <h2 id="argon-structure">Argon Dashboard React structure</h2>
+        <h2 id="argon-structure">Argon Design System React structure</h2>
         <p>
           Once downloaded, unzip the compressed folder and you’ll see something
           like this:
@@ -137,7 +137,7 @@ class Contents extends React.Component {
         <h2 id="bootstrap-components">Bootstrap / Reactstrap components</h2>
         <p>
           Here is the list of Bootstrap 4 / Reactstrap components that were
-          restyled in Argon Dashboard React:
+          restyled in Argon Design System React:
         </p>
         <Row className="row-grid mt-5">
           <Col md="3">

@@ -11,7 +11,7 @@ class Download extends React.Component {
           <div className="avatar-group mt-3" />
         </div>
         <p className="ct-lead">
-          Download Argon Dashboard React to get the compiled CSS and JavaScript,
+          Download Argon Design System React to get the compiled CSS and JavaScript,
           source code, or include it with your favorite package managers.
         </p>
         <hr />

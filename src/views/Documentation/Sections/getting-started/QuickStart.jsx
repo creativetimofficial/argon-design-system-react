@@ -59,7 +59,7 @@ class QuickStart extends React.Component {
             (be sure to be logged into your account)
           </li>
           <li>
-            Press the download button near <b>Argon Dashboard React</b> product
+            Press the download button near <b>Argon Design System React</b> product
             (this will download onto your computer a zip file)
           </li>
           <li>Unzip the downloaded file to a folder in your computer</li>

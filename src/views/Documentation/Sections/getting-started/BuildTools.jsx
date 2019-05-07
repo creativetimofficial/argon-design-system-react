@@ -11,7 +11,7 @@ class BuildTools extends React.Component {
           <div className="avatar-group mt-3" />
         </div>
         <p className="ct-lead">
-          Learn how to use Argon Dashboard React to build your theme, compile
+          Learn how to use Argon Design System React to build your theme, compile
           SCSS, change brand-colors and more
         </p>
         <hr />
