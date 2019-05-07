@@ -99,7 +99,7 @@ class Datepicker extends React.Component {
               Date range
             </small>
             <Row>
-              <Col xs={6}>
+              <Col sm={6} xs={12}>
                 <FormGroup className="focused">
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
@@ -131,7 +131,7 @@ class Datepicker extends React.Component {
                   </InputGroup>
                 </FormGroup>
               </Col>
-              <Col xs={6}>
+              <Col sm={6} xs={12}>
                 <FormGroup className="focused">
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
