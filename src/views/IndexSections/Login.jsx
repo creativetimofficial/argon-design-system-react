@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
@@ -50,13 +51,14 @@ class Login extends React.Component {
                   Bootstrap 4 Design System.
                 </p>
                 <div className="btn-wrapper">
-                  <Button color="success" href="./examples/login.html">
+                  <Button color="success" to="/login-page" tag={Link}>
                     Login Page
                   </Button>
                   <Button
                     className="btn-white"
                     color="default"
-                    href="./examples/register.html"
+                    to="/register-page"
+                    tag={Link}
                   >
                     Register Page
                   </Button>

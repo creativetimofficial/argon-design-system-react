@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -47,12 +48,12 @@ class Menus extends React.Component {
                       <div className="navbar-collapse-header">
                         <Row>
                           <Col className="collapse-brand" xs="6">
-                            <a href="./index.html">
+                            <Link to="/">
                               <img
                                 alt="..."
                                 src={require("assets/img/brand/blue.png")}
                               />
-                            </a>
+                            </Link>
                           </Col>
                           <Col className="collapse-close" xs="6">
                             <button
@@ -136,12 +137,12 @@ class Menus extends React.Component {
                       <div className="navbar-collapse-header">
                         <Row>
                           <Col className="collapse-brand" xs="6">
-                            <a href="./index.html">
+                            <Link to="/">
                               <img
                                 alt="..."
                                 src={require("assets/img/brand/blue.png")}
                               />
-                            </a>
+                            </Link>
                           </Col>
                           <Col className="collapse-close" xs="6">
                             <button
