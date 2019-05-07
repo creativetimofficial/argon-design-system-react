@@ -1,4 +1,6 @@
 import React from "react";
+// nodejs library that concatenates classes
+import classnames from "classnames";
 
 // reactstrap components
 import {
@@ -14,15 +16,18 @@ import {
   InputGroup,
   Container,
   Row,
-  Col,
-  UncontrolledTooltip
+  Col
 } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
 import CardsFooter from "components/Footers/CardsFooter.jsx";
 
+// index page sections
+import Download from "../IndexSections/Download.jsx";
+
 class Landing extends React.Component {
+  state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -66,20 +71,22 @@ class Landing extends React.Component {
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
                         >
-                          <span className="btn-inner--icon">
+                          <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
                         </Button>
                         <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0"
+                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react"
                         >
-                          <span className="btn-inner--icon">
+                          <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
-                          <span className="btn-inner--text">Download HTML</span>
+                          <span className="btn-inner--text">
+                            Download React
+                          </span>
                         </Button>
                       </div>
                     </Col>
@@ -125,13 +132,13 @@ class Landing extends React.Component {
                             features.
                           </p>
                           <div>
-                            <Badge color="primary" pill>
+                            <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
-                            <Badge color="primary" pill>
+                            <Badge color="primary" pill className="mr-1">
                               system
                             </Badge>
-                            <Badge color="primary" pill>
+                            <Badge color="primary" pill className="mr-1">
                               creative
                             </Badge>
                           </div>
@@ -161,13 +168,13 @@ class Landing extends React.Component {
                             features.
                           </p>
                           <div>
-                            <Badge color="success" pill>
+                            <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
-                            <Badge color="success" pill>
+                            <Badge color="success" pill className="mr-1">
                               vision
                             </Badge>
-                            <Badge color="success" pill>
+                            <Badge color="success" pill className="mr-1">
                               success
                             </Badge>
                           </div>
@@ -197,13 +204,13 @@ class Landing extends React.Component {
                             features.
                           </p>
                           <div>
-                            <Badge color="warning" pill>
+                            <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
-                            <Badge color="warning" pill>
+                            <Badge color="warning" pill className="mr-1">
                               product
                             </Badge>
-                            <Badge color="warning" pill>
+                            <Badge color="warning" pill className="mr-1">
                               launch
                             </Badge>
                           </div>
@@ -511,7 +518,7 @@ class Landing extends React.Component {
                           <i className="fa fa-twitter" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -519,7 +526,7 @@ class Landing extends React.Component {
                           <i className="fa fa-facebook" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -555,7 +562,7 @@ class Landing extends React.Component {
                           <i className="fa fa-twitter" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -563,7 +570,7 @@ class Landing extends React.Component {
                           <i className="fa fa-facebook" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -597,7 +604,7 @@ class Landing extends React.Component {
                           <i className="fa fa-twitter" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -605,7 +612,7 @@ class Landing extends React.Component {
                           <i className="fa fa-facebook" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -639,7 +646,7 @@ class Landing extends React.Component {
                           <i className="fa fa-twitter" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -647,7 +654,7 @@ class Landing extends React.Component {
                           <i className="fa fa-facebook" />
                         </Button>
                         <Button
-                          className="btn-icon-only rounded-circle"
+                          className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -684,7 +691,7 @@ class Landing extends React.Component {
                         href="https://www.creative-tim.com/product/argon-design-system-react"
                         size="lg"
                       >
-                        Download HTML
+                        Download React
                       </Button>
                     </Col>
                   </Row>
@@ -765,24 +772,42 @@ class Landing extends React.Component {
                       <p className="mt-0">
                         Your project is very important to us.
                       </p>
-                      <FormGroup className="mt-5">
+                      <FormGroup
+                        className={classnames("mt-5", {
+                          focused: this.state.nameFocused
+                        })}
+                      >
                         <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-user-run" />
                             </InputGroupText>
                           </InputGroupAddon>
-                          <Input placeholder="Your name" type="text" />
+                          <Input
+                            placeholder="Your name"
+                            type="text"
+                            onFocus={e => this.setState({ nameFocused: true })}
+                            onBlur={e => this.setState({ nameFocused: false })}
+                          />
                         </InputGroup>
                       </FormGroup>
-                      <FormGroup>
+                      <FormGroup
+                        className={classnames({
+                          focused: this.state.emailFocused
+                        })}
+                      >
                         <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-email-83" />
                             </InputGroupText>
                           </InputGroupAddon>
-                          <Input placeholder="Email address" type="email" />
+                          <Input
+                            placeholder="Email address"
+                            type="email"
+                            onFocus={e => this.setState({ emailFocused: true })}
+                            onBlur={e => this.setState({ emailFocused: false })}
+                          />
                         </InputGroup>
                       </FormGroup>
                       <FormGroup className="mb-4">
@@ -792,6 +817,7 @@ class Landing extends React.Component {
                           name="name"
                           placeholder="Type a message..."
                           rows="4"
+                          type="textarea"
                         />
                       </FormGroup>
                       <div>
@@ -811,156 +837,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="row-grid justify-content-center">
-                <Col className="text-center" lg="8">
-                  <h2 className="display-3">
-                    Do you love this awesome{" "}
-                    <span className="text-success">
-                      Design System for Bootstrap 4?
-                    </span>
-                  </h2>
-                  <p className="lead">
-                    Cause if you do, it can be yours for FREE. Hit the button
-                    below to navigate to Creative Tim where you can find the
-                    Design System in HTML. Start a new project or give an old
-                    Bootstrap project a new look!
-                  </p>
-                  <div className="btn-wrapper">
-                    <Button
-                      className="mb-3 mb-sm-0"
-                      color="primary"
-                      href="https://www.creative-tim.com/product/argon-design-system-react"
-                    >
-                      Download HTML
-                    </Button>
-                  </div>
-                  <div className="text-center">
-                    <h4 className="display-4 mb-5 mt-5">
-                      Available on these technologies
-                    </h4>
-                    <Row className="justify-content-center">
-                      <Col lg="2" xs="4">
-                        <a
-                          href="https://www.creative-tim.com/product/argon-design-system-react"
-                          id="tooltip719082543"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip719082543"
-                        >
-                          Bootstrap 4 - Most popular front-end component library
-                        </UncontrolledTooltip>
-                      </Col>
-                      <Col lg="2" xs="4">
-                        <a
-                          href=" https://www.creative-tim.com/product/vue-argon-design-system-react"
-                          id="tooltip486885320"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip486885320"
-                        >
-                          Vue.js - The progressive javascript framework
-                        </UncontrolledTooltip>
-                      </Col>
-                      <Col lg="2" xs="4">
-                        <a
-                          href=" https://www.sketchapp.com/"
-                          id="tooltip983124587"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid opacity-3"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip983124587"
-                        >
-                          [Coming Soon] Sketch - Digital design toolkit
-                        </UncontrolledTooltip>
-                      </Col>
-                      <Col lg="2" xs="4">
-                        <a
-                          href=" https://www.adobe.com/products/photoshop.html"
-                          id="tooltip639096506"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid opacity-3"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip639096506"
-                        >
-                          [Coming Soon] Adobe Photoshop - Software for digital
-                          images manipulation
-                        </UncontrolledTooltip>
-                      </Col>
-                      <Col lg="2" xs="4">
-                        <a
-                          href=" https://angularjs.org/"
-                          id="tooltip667720522"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid opacity-3"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip667720522"
-                        />
-                      </Col>
-                      <Col lg="2" xs="4">
-                        <a
-                          href=" https://angularjs.org/"
-                          id="tooltip727451202"
-                          target="_blank"
-                        >
-                          <img
-                            alt="..."
-                            className="img-fluid opacity-3"
-                            src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
-                          />
-                        </a>
-                        <UncontrolledTooltip
-                          delay={0}
-                          target="tooltip727451202"
-                        >
-                          [Coming Soon] React - A JavaScript library for
-                          building user interfaces
-                        </UncontrolledTooltip>
-                      </Col>
-                    </Row>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+          <Download />
         </main>
         <CardsFooter />
       </>
