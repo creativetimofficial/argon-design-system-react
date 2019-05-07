@@ -2780,8 +2780,8 @@ class Icons extends React.Component {
         </p>
         <h2 id="font-awesome-5">Font Awesome 5</h2>
         <p>
-          Optionally, Argon comes with Font Awesome which means 3000+ more
-          vector icons made for you to use.
+          Optionally, Argon comes with Font Awesome which means 600+ more vector
+          icons made for you to use.
         </p>
         <h3 id="usage-1">Usage</h3>
         <p>
@@ -2790,7 +2790,7 @@ class Icons extends React.Component {
           file of your app:
         </p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";`}
+          {`import "assets/vendor/font-awesome/css/font-awesome.min.css";`}
         </SyntaxHighlighter>
         <h3 id="initialization-1">Initialization</h3>
         <p>
@@ -2803,12 +2803,15 @@ class Icons extends React.Component {
           <li>its name, prefixed with fa- and</li>
           <li>the style you want to use’s corresponding prefix.</li>
         </ol>
+        <SyntaxHighlighter language="jsx" style={prism}>
+          {`<i class="fa fa-bicycle"></i>`}
+        </SyntaxHighlighter>
         <h3 id="icons-1">Icons</h3>
         <p>Get the icon you need on the official website:</p>
         <p>
           <Button
             color="primary"
-            href="https://fontawesome.com/?ref=creativetime"
+            href="https://fontawesome.com/v4.7.0/icons/?ref=creativetime"
             target="_blank"
           >
             Go to Font Awesome

@@ -1,5 +1,4 @@
 // Getting started
-// import Colors from "views/Documentation/Sections/Colors.jsx";
 import Overview from "views/Documentation/Sections/getting-started/Overview.jsx";
 import QuickStart from "views/Documentation/Sections/getting-started/QuickStart.jsx";
 import Download from "views/Documentation/Sections/getting-started/Download.jsx";
@@ -11,7 +10,7 @@ import RoutingSystem from "views/Documentation/Sections/getting-started/RoutingS
 import Colors from "views/Documentation/Sections/foundation/Colors.jsx";
 import Grid from "views/Documentation/Sections/foundation/Grid.jsx";
 import Typography from "views/Documentation/Sections/foundation/Typography.jsx";
-// import Icons from "views/Documentation/Sections/foundation/Icons.jsx";
+import Icons from "views/Documentation/Sections/foundation/Icons.jsx";
 // Core components
 import Footer from "views/Documentation/Sections/core-components/Footer.jsx";
 import Navbars from "views/Documentation/Sections/core-components/Navbars.jsx";
@@ -98,12 +97,12 @@ var docsRoutes = [
         path: "/documentation/typography",
         component: Typography,
         name: "Typography"
+      },
+      {
+        path: "/documentation/icons",
+        component: Icons,
+        name: "Icons"
       }
-      // {
-      //   path: "/documentation/icons",
-      //   component: Icons,
-      //   name: "Icons"
-      // }
     ]
   },
   {
