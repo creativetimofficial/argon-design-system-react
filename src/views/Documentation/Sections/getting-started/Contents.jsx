@@ -229,7 +229,7 @@ class Contents extends React.Component {
             </Card>
           </Col>
         </Row>
-        <h2 id="argon-components">Argon Dashboard components</h2>
+        <h2 id="argon-components">Argon Design System components</h2>
         <p>
           Besides giving the existing Bootstrap elements a new look, we added
           new ones, so that the interface and consistent and homogenous. Going
