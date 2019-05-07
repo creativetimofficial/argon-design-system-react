@@ -19,11 +19,7 @@ class Icons extends React.Component {
                   most.
                 </p>
                 <div className="btn-wrapper">
-                  <Button
-                    color="primary"
-                    to="/documentation/icons"
-                    tag={Link}
-                  >
+                  <Button color="primary" to="/documentation/icons" tag={Link}>
                     View demo icons
                   </Button>
                   <Button

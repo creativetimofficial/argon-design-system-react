@@ -43,7 +43,7 @@ class Header extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fab fa-facebook-square" />
+                <i className="fa fa-facebook-square" />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -53,7 +53,7 @@ class Header extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fab fa-twitter" />
+                <i className="fa fa-twitter" />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -63,7 +63,7 @@ class Header extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fab fa-instagram" />
+                <i className="fa fa-instagram" />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -73,7 +73,7 @@ class Header extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fab fa-dribbble" />
+                <i className="fa fa-dribbble" />
               </NavLink>
             </NavItem>
             <NavItem>
@@ -83,21 +83,21 @@ class Header extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fab fa-github" />
+                <i className="fa fa-github" />
               </NavLink>
             </NavItem>
           </Nav>
         </div>
         <Button
-          className="btn-neutral btn-icon ml-sm-3 d-none d-md-block"
-          color="default"
+          className="btn-icon ml-sm-3 d-none d-md-block"
+          color="neutral"
           href="https://www.creative-tim.com/product/argon-dashboard-react?ref=adr-documentation-header"
           target="_blank"
         >
           <span className="btn-inner--icon">
-            <i className="fas fa-download mr-2" />
+            <i className="fa fa-cloud-download mr-2" />
           </span>
-          <span className="nav-link-inner--text">Download</span>
+          <span className="nav-link-inner--text ml-1">Download</span>
         </Button>
         <button
           aria-controls="ct-docs-nav"
