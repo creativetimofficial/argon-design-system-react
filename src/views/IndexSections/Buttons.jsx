@@ -58,7 +58,12 @@ class BasicElements extends React.Component {
                   <Button className="btn-1 ml-1" color="primary" type="button">
                     Regular
                   </Button>
-                  <Button color="primary" size="lg" type="button" className="ml-1">
+                  <Button
+                    color="primary"
+                    size="lg"
+                    type="button"
+                    className="ml-1"
+                  >
                     Large Button
                   </Button>
                 </div>
@@ -98,16 +103,36 @@ class BasicElements extends React.Component {
                 <Button className="btn-1" color="primary" outline type="button">
                   Outline-primary
                 </Button>
-                <Button className="btn-1 ml-1" color="info" outline type="button">
+                <Button
+                  className="btn-1 ml-1"
+                  color="info"
+                  outline
+                  type="button"
+                >
                   Outline-info
                 </Button>
-                <Button className="btn-1 ml-1" color="success" outline type="button">
+                <Button
+                  className="btn-1 ml-1"
+                  color="success"
+                  outline
+                  type="button"
+                >
                   Outline-success
                 </Button>
-                <Button className="btn-1 ml-1" color="warning" outline type="button">
+                <Button
+                  className="btn-1 ml-1"
+                  color="warning"
+                  outline
+                  type="button"
+                >
                   Outline-warning
                 </Button>
-                <Button className="btn-1 ml-1" color="danger" outline type="button">
+                <Button
+                  className="btn-1 ml-1"
+                  color="danger"
+                  outline
+                  type="button"
+                >
                   Outline-danger
                 </Button>
                 {/* Button links */}

@@ -24,7 +24,7 @@ import {
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
-    let headroom  = new Headroom(document.getElementById("navbar-main"));
+    let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
     headroom.init();
   }

@@ -1,5 +1,6 @@
 import React from "react";
-
+// nodejs library that concatenates classes
+import classnames from "classnames";
 // reactstrap components
 import {
   Button,
@@ -18,9 +19,7 @@ import {
 } from "reactstrap";
 
 class Modals extends React.Component {
-  state = {
-    defaultModal: false
-  };
+  state = {};
   toggleModal = state => {
     this.setState({
       [state]: !this.state[state]
@@ -205,24 +204,46 @@ class Modals extends React.Component {
                       <small>Or sign in with credentials</small>
                     </div>
                     <Form role="form">
-                      <FormGroup className="mb-3">
+                      <FormGroup
+                        className={classnames("mb-3", {
+                          focused: this.state.emailFocused
+                        })}
+                      >
                         <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-email-83" />
                             </InputGroupText>
                           </InputGroupAddon>
-                          <Input placeholder="Email" type="email" />
+                          <Input
+                            placeholder="Email"
+                            type="email"
+                            onFocus={e => this.setState({ emailFocused: true })}
+                            onBlur={e => this.setState({ emailFocused: false })}
+                          />
                         </InputGroup>
                       </FormGroup>
-                      <FormGroup>
+                      <FormGroup
+                        className={classnames({
+                          focused: this.state.passwordFocused
+                        })}
+                      >
                         <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-lock-circle-open" />
                             </InputGroupText>
                           </InputGroupAddon>
-                          <Input placeholder="Password" type="password" />
+                          <Input
+                            placeholder="Password"
+                            type="password"
+                            onFocus={e =>
+                              this.setState({ passwordFocused: true })
+                            }
+                            onBlur={e =>
+                              this.setState({ passwordFocused: false })
+                            }
+                          />
                         </InputGroup>
                       </FormGroup>
                       <div className="custom-control custom-control-alternative custom-checkbox">
