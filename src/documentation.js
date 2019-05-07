@@ -6,7 +6,6 @@ import Download from "views/Documentation/Sections/getting-started/Download.jsx"
 import License from "views/Documentation/Sections/getting-started/License.jsx";
 import Contents from "views/Documentation/Sections/getting-started/Contents.jsx";
 import BuildTools from "views/Documentation/Sections/getting-started/BuildTools.jsx";
-import Variables from "views/Documentation/Sections/getting-started/Variables.jsx";
 import RoutingSystem from "views/Documentation/Sections/getting-started/RoutingSystem.jsx";
 // Foundation
 import Colors from "views/Documentation/Sections/foundation/Colors.jsx";
@@ -73,11 +72,6 @@ var docsRoutes = [
         path: "/documentation/build-tools",
         component: BuildTools,
         name: "Build Tools"
-      },
-      {
-        path: "/documentation/variables",
-        component: Variables,
-        name: "Variables"
       },
       {
         path: "/documentation/routing-system",

@@ -171,7 +171,7 @@ class BuildTools extends React.Component {
                   </code>{" "}
                   into{" "}
                   <code className="highlighter-rouge">
-                    src/assets/css/argon-dashoard-react.css
+                    src/assets/css/argon-design-system-react.css
                   </code>
                   .
                 </td>
@@ -200,7 +200,7 @@ class BuildTools extends React.Component {
                   </code>{" "}
                   into{" "}
                   <code className="highlighter-rouge">
-                    src/assets/css/argon-dashoard-react.min.css
+                    src/assets/css/argon-design-system-react.min.css
                   </code>
                   .
                 </td>
@@ -229,7 +229,7 @@ class BuildTools extends React.Component {
                   </code>{" "}
                   into{" "}
                   <code className="highlighter-rouge">
-                    src/assets/css/argon-dashoard-react.css.map
+                    src/assets/css/argon-design-system-react.css.map
                   </code>
                   .
                 </td>
