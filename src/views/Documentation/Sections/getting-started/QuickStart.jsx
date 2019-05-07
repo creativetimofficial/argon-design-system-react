@@ -195,10 +195,12 @@ class QuickStart extends React.Component {
         </ul>
         <h2 id="live-production">Live Production</h2>
         <p>
+          We deploy our products using github pages (gh-pages), this requires that inside the package.json file to have a homepage prop. If you wish to build the product locally or deploy it somewhere, you will either need to change this prop, or delete it altogether.
+        </p>
+        <p>
           These are some free open source tutorial on how to deploy a React app
           on some servers. Please note that your project might need some
-          additional configs to deploy it on these servers (Our demo product
-          needs no adition configs):
+          additional configs to deploy it on these servers:
         </p>
         <ul>
           <li>
