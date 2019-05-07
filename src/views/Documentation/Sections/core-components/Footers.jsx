@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 class Footer extends React.Component {
   render() {
     return (
@@ -12,20 +12,22 @@ class Footer extends React.Component {
         </div>
         <p className="ct-lead">
           We've created two demo footers, one used for{" "}
-          <code className="highlighter-rouge">src/layouts/Admin.jsx</code> and
-          one for{" "}
-          <code className="highlighter-rouge">src/layouts/Auth.jsx</code>.
+          <Link to="/">Index page</Link> and{" "}
+          <Link to="/landing-page">Landing Page</Link> and one for{" "}
+          <Link to="/profile-page">Profile Page</Link> and{" "}
+          <Link to="/login-page">Login Page</Link> and{" "}
+          <Link to="/register-page">Register Page</Link>.
         </p>
         <hr />
         <h2 id="primary-colors">Short description and usage</h2>
         <p>
           These two can be found inside{" "}
           <code className="highlighter-rouge">
-            src/components/Footers/AdminFooter.jsx
+            src/components/Footers/CardsFooter.jsx
           </code>{" "}
           and{" "}
           <code className="highlighter-rouge">
-            src/components/Footers/AuthFooter.jsx
+            src/components/Footers/SimpleFooter.jsx
           </code>
           .
         </p>

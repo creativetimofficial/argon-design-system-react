@@ -12,10 +12,8 @@ import Grid from "views/Documentation/Sections/foundation/Grid.jsx";
 import Typography from "views/Documentation/Sections/foundation/Typography.jsx";
 import Icons from "views/Documentation/Sections/foundation/Icons.jsx";
 // Core components
-import Footer from "views/Documentation/Sections/core-components/Footer.jsx";
+import Footers from "views/Documentation/Sections/core-components/Footers.jsx";
 import Navbars from "views/Documentation/Sections/core-components/Navbars.jsx";
-import Headers from "views/Documentation/Sections/core-components/Headers.jsx";
-import Sidebar from "views/Documentation/Sections/core-components/Sidebar.jsx";
 // Reasctrap components
 import Alerts from "views/Documentation/Sections/restyled-components/Alerts.jsx";
 import Badge from "views/Documentation/Sections/restyled-components/Badge.jsx";
@@ -108,24 +106,14 @@ var docsRoutes = [
     path: "/documentation/custom-upload",
     routes: [
       {
-        path: "/documentation/footer",
-        component: Footer,
-        name: "Footer"
+        path: "/documentation/footers",
+        component: Footers,
+        name: "Footers"
       },
       {
         path: "/documentation/app-navigation",
         component: Navbars,
         name: "App Navbars"
-      },
-      {
-        path: "/documentation/page-header",
-        component: Headers,
-        name: "Headers"
-      },
-      {
-        path: "/documentation/sidebar",
-        component: Sidebar,
-        name: "Sidebar"
       }
     ]
   },
