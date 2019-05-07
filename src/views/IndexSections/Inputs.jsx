@@ -1,5 +1,5 @@
 import React from "react";
-
+import classnames from "classnames";
 // reactstrap components
 import {
   FormGroup,
@@ -13,6 +13,7 @@ import {
 } from "reactstrap";
 
 class Inputs extends React.Component {
+  state = {};
   render() {
     return (
       <>
@@ -30,14 +31,23 @@ class Inputs extends React.Component {
                 <FormGroup>
                   <Input placeholder="Regular" type="text" />
                 </FormGroup>
-                <FormGroup>
+                <FormGroup
+                  className={classnames({
+                    focused: this.state.searchFocused
+                  })}
+                >
                   <InputGroup className="mb-4">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
                         <i className="ni ni-zoom-split-in" />
                       </InputGroupText>
                     </InputGroupAddon>
-                    <Input placeholder="Search" type="text" />
+                    <Input
+                      placeholder="Search"
+                      type="text"
+                      onFocus={e => this.setState({ searchFocused: true })}
+                      onBlur={e => this.setState({ searchFocused: false })}
+                    />
                   </InputGroup>
                 </FormGroup>
               </Col>
@@ -45,9 +55,18 @@ class Inputs extends React.Component {
                 <FormGroup>
                   <Input disabled placeholder="Regular" type="text" />
                 </FormGroup>
-                <FormGroup>
+                <FormGroup
+                  className={classnames({
+                    focused: this.state.birthdayFocused
+                  })}
+                >
                   <InputGroup className="mb-4">
-                    <Input placeholder="Birthday" type="text" />
+                    <Input
+                      placeholder="Birthday"
+                      type="text"
+                      onFocus={e => this.setState({ birthdayFocused: true })}
+                      onBlur={e => this.setState({ birthdayFocused: false })}
+                    />
                     <InputGroupAddon addonType="append">
                       <InputGroupText>
                         <i className="ni ni-zoom-split-in" />
@@ -91,14 +110,23 @@ class Inputs extends React.Component {
                       type="text"
                     />
                   </FormGroup>
-                  <FormGroup>
+                  <FormGroup
+                    className={classnames({
+                      focused: this.state.searchAltFocused
+                    })}
+                  >
                     <InputGroup className="input-group-alternative mb-4">
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="ni ni-zoom-split-in" />
                         </InputGroupText>
                       </InputGroupAddon>
-                      <Input placeholder="Search" type="text" />
+                      <Input
+                        placeholder="Search"
+                        type="text"
+                        onFocus={e => this.setState({ searchAltFocused: true })}
+                        onBlur={e => this.setState({ searchAltFocused: false })}
+                      />
                     </InputGroup>
                   </FormGroup>
                 </Col>
@@ -111,9 +139,22 @@ class Inputs extends React.Component {
                       type="text"
                     />
                   </FormGroup>
-                  <FormGroup>
+                  <FormGroup
+                    className={classnames({
+                      focused: this.state.birthdayAltFocused
+                    })}
+                  >
                     <InputGroup className="input-group-alternative mb-4">
-                      <Input placeholder="Birthday" type="text" />
+                      <Input
+                        placeholder="Birthday"
+                        type="text"
+                        onFocus={e =>
+                          this.setState({ birthdayAltFocused: true })
+                        }
+                        onBlur={e =>
+                          this.setState({ birthdayAltFocused: false })
+                        }
+                      />
                       <InputGroupAddon addonType="append">
                         <InputGroupText>
                           <i className="ni ni-zoom-split-in" />
