@@ -234,11 +234,11 @@ class QuickStart extends React.Component {
           our styles inside your app like so:
         </p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/scss/argon-design-system-react.scss";`}
+          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/font-awesome/css/font-awesome.min.css";\nimport "assets/scss/argon-design-system-react.scss";`}
         </SyntaxHighlighter>
         <p>Or you can import our compiled scss</p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";\nimport "assets/css/argon-design-system-react.css";\n// import "assets/css/argon-design-system-react.min.css";\n// import "assets/css/argon-design-system-react.css.map";`}
+          {`import "assets/vendor/nucleo/css/nucleo.css";\nimport "assets/vendor/font-awesome/css/font-awesome.min.css";\nimport "assets/css/argon-design-system-react.css";\n// import "assets/css/argon-design-system-react.min.css";\n// import "assets/css/argon-design-system-react.css.map";`}
         </SyntaxHighlighter>
         <h2 id="fonts-and-icons">Fonts and Icons</h2>
         <p>
@@ -247,7 +247,7 @@ class QuickStart extends React.Component {
           <code className="highlighter-rouge">.html</code> file:
         </p>
         <SyntaxHighlighter language="html" style={prism}>
-          {`<!-- Fonts -->\n<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />`}
+          {`<!-- Fonts -->\n<link\n  href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"\n  rel="stylesheet"\n/>`}
         </SyntaxHighlighter>
       </>
     );
