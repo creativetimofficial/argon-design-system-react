@@ -37,11 +37,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-default">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-default"
-                navbar
-                toggler="#navbar-default"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-default">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -85,7 +81,7 @@ class Navbars extends React.Component {
                       </span>
                     </NavLink>
                   </NavItem>
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav className="nav-link-icon">
                       <i className="ni ni-settings-gear-65" />
                       <span className="nav-link-inner--text d-lg-none">
@@ -130,11 +126,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-primary">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-primary"
-                navbar
-                toggler="#navbar-primary"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-primary">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -164,7 +156,7 @@ class Navbars extends React.Component {
                       Profile
                     </NavLink>
                   </NavItem>
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav>Settings</DropdownToggle>
                     <DropdownMenu
                       aria-labelledby="navbar-primary_dropdown_1"
@@ -204,11 +196,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-success">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-success"
-                navbar
-                toggler="#navbar-success"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-success">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -252,7 +240,7 @@ class Navbars extends React.Component {
                       </span>
                     </NavLink>
                   </NavItem>
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav className="nav-link-icon">
                       <i className="ni ni-settings-gear-65" />
                       <span className="nav-link-inner--text d-lg-none">
@@ -297,11 +285,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-danger">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-danger"
-                navbar
-                toggler="#navbar-danger"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-danger">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -382,11 +366,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-warning">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-warning"
-                navbar
-                toggler="#navbar-warning"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-warning">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
@@ -455,11 +435,7 @@ class Navbars extends React.Component {
               <button className="navbar-toggler" id="navbar-info">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
-                id="navbar-info"
-                navbar
-                toggler="#navbar-info"
-              >
+              <UncontrolledCollapse navbar toggler="#navbar-info">
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
