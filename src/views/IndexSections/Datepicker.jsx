@@ -14,6 +14,59 @@ import {
 
 class Datepicker extends React.Component {
   state = {};
+  handleReactDatetimeChange = (who, date) => {
+    if (
+      this.state.startDate &&
+      who === "endDate" &&
+      new Date(this.state.startDate._d + "") > new Date(date._d + "")
+    ) {
+      this.setState({
+        startDate: date,
+        endDate: date
+      });
+    } else if (
+      this.state.endDate &&
+      who === "startDate" &&
+      new Date(this.state.endDate._d + "") < new Date(date._d + "")
+    ) {
+      this.setState({
+        startDate: date,
+        endDate: date
+      });
+    } else {
+      this.setState({
+        [who]: date
+      });
+    }
+  };
+  // this function adds on the day tag of the date picker
+  // middle-date className which means that this day will have no border radius
+  // start-date className which means that this day will only have left border radius
+  // end-date className which means that this day will only have right border radius
+  // this way, the selected dates will look nice and will only be rounded at the ends
+  getClassNameReactDatetimeDays = date => {
+    if (this.state.startDate && this.state.endDate) {
+    }
+    if (
+      this.state.startDate &&
+      this.state.endDate &&
+      this.state.startDate._d + "" !== this.state.endDate._d + ""
+    ) {
+      if (
+        new Date(this.state.endDate._d + "") > new Date(date._d + "") &&
+        new Date(this.state.startDate._d + "") < new Date(date._d + "")
+      ) {
+        return " middle-date";
+      }
+      if (this.state.endDate._d + "" === date._d + "") {
+        return " end-date";
+      }
+      if (this.state.startDate._d + "" === date._d + "") {
+        return " start-date";
+      }
+    }
+    return "";
+  };
   render() {
     return (
       <>
@@ -56,39 +109,24 @@ class Datepicker extends React.Component {
                     </InputGroupAddon>
                     <ReactDatetime
                       inputProps={{
-                        placeholder: "Date Picker Here"
+                        placeholder: "Start Date"
                       }}
+                      value={this.state.startDate}
                       timeFormat={false}
+                      onChange={e =>
+                        this.handleReactDatetimeChange("startDate", e)
+                      }
                       renderDay={(props, currentDate, selectedDate) => {
                         let classes = props.className;
-                        if (
-                          this.state.startDate &&
-                          this.state.endDate &&
-                          this.state.startDate._d + "" === currentDate._d + ""
-                        ) {
-                          classes += " start-date";
-                        } else if (
-                          this.state.startDate &&
-                          this.state.endDate &&
-                          new Date(this.state.startDate._d + "") <
-                            new Date(currentDate._d + "") &&
-                          new Date(this.state.endDate._d + "") >
-                            new Date(currentDate._d + "")
-                        ) {
-                          classes += " middle-date";
-                        } else if (
-                          this.state.endDate &&
-                          this.state.endDate._d + "" === currentDate._d + ""
-                        ) {
-                          classes += " end-date";
-                        }
+                        classes += this.getClassNameReactDatetimeDays(
+                          currentDate
+                        );
                         return (
                           <td {...props} className={classes}>
                             {currentDate.date()}
                           </td>
                         );
                       }}
-                      onChange={e => this.setState({ startDate: e })}
                     />
                   </InputGroup>
                 </FormGroup>
@@ -103,39 +141,24 @@ class Datepicker extends React.Component {
                     </InputGroupAddon>
                     <ReactDatetime
                       inputProps={{
-                        placeholder: "Date Picker Here"
+                        placeholder: "End Date"
                       }}
+                      value={this.state.endDate}
                       timeFormat={false}
+                      onChange={e =>
+                        this.handleReactDatetimeChange("endDate", e)
+                      }
                       renderDay={(props, currentDate, selectedDate) => {
                         let classes = props.className;
-                        if (
-                          this.state.startDate &&
-                          this.state.endDate &&
-                          this.state.startDate._d + "" === currentDate._d + ""
-                        ) {
-                          classes += " start-date";
-                        } else if (
-                          this.state.startDate &&
-                          this.state.endDate &&
-                          new Date(this.state.startDate._d + "") <
-                            new Date(currentDate._d + "") &&
-                          new Date(this.state.endDate._d + "") >
-                            new Date(currentDate._d + "")
-                        ) {
-                          classes += " middle-date";
-                        } else if (
-                          this.state.endDate &&
-                          this.state.endDate._d + "" === currentDate._d + ""
-                        ) {
-                          classes += " end-date";
-                        }
+                        classes += this.getClassNameReactDatetimeDays(
+                          currentDate
+                        );
                         return (
                           <td {...props} className={classes}>
                             {currentDate.date()}
                           </td>
                         );
                       }}
-                      onChange={e => this.setState({ endDate: e })}
                     />
                   </InputGroup>
                 </FormGroup>
