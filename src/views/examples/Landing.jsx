@@ -64,7 +64,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
-                          href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
                         >
                           <span className="btn-inner--icon">
                             <i className="fa fa-code" />
@@ -74,7 +74,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system"
+                          href="https://www.creative-tim.com/product/argon-design-system-react"
                         >
                           <span className="btn-inner--icon">
                             <i className="ni ni-cloud-download-95" />
@@ -681,7 +681,7 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system"
+                        href="https://www.creative-tim.com/product/argon-design-system-react"
                         size="lg"
                       >
                         Download HTML
@@ -831,7 +831,7 @@ class Landing extends React.Component {
                     <Button
                       className="mb-3 mb-sm-0"
                       color="primary"
-                      href="https://www.creative-tim.com/product/argon-design-system"
+                      href="https://www.creative-tim.com/product/argon-design-system-react"
                     >
                       Download HTML
                     </Button>
@@ -843,7 +843,7 @@ class Landing extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="2" xs="4">
                         <a
-                          href="https://www.creative-tim.com/product/argon-design-system"
+                          href="https://www.creative-tim.com/product/argon-design-system-react"
                           id="tooltip719082543"
                           target="_blank"
                         >
@@ -862,7 +862,7 @@ class Landing extends React.Component {
                       </Col>
                       <Col lg="2" xs="4">
                         <a
-                          href=" https://www.creative-tim.com/product/vue-argon-design-system"
+                          href=" https://www.creative-tim.com/product/vue-argon-design-system-react"
                           id="tooltip486885320"
                           target="_blank"
                         >

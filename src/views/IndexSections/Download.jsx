@@ -28,7 +28,7 @@ class Download extends React.Component {
                   <Button
                     className="mb-3 mb-sm-0"
                     color="primary"
-                    href="https://www.creative-tim.com/product/argon-design-system"
+                    href="https://www.creative-tim.com/product/argon-design-system-react"
                   >
                     Download React
                   </Button>

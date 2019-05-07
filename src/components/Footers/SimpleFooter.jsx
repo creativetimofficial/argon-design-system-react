@@ -127,7 +127,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
                       rel="noopener noreferrer"
                       target="_blank"
                     >

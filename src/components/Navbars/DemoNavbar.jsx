@@ -69,7 +69,7 @@ class DemoNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/overview"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-spaceship" />
@@ -86,7 +86,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system/docs/foundation/colors.html"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/colors"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-palette" />
@@ -103,7 +103,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-ui-04" />
@@ -194,7 +194,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system"
+                      href="https://github.com/creativetimofficial/argon-design-system-react"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -211,7 +211,7 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system"
+                      href="https://www.creative-tim.com/product/argon-design-system-react"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
