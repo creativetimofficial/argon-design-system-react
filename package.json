@@ -36,7 +36,8 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css",
     "minify-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css --source-map true"
+    "map-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css --source-map true",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +50,7 @@
   ],
   "dependencies": {
     "classnames": "2.2.6",
+    "gh-pages": "2.0.1",
     "headroom.js": "0.9.4",
     "moment": "2.24.0",
     "node-sass": "4.12.0",
