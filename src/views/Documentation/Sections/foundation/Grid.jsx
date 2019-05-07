@@ -222,15 +222,15 @@ class Grid extends React.Component {
           to layout and align content. It’s built with{" "}
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">
             flexbox
-          </a>
+          </a>{" "}
           and is fully responsive. Below is an example and an in-depth look at
           how the grid comes together.
         </p>
         <p>
-          <strong>New to or unfamiliar with flexbox?</strong>
+          <strong>New to or unfamiliar with flexbox?</strong>{" "}
           <a href="#pablo" onClick={e => e.preventDefault()}>
             Read this CSS Tricks flexbox guide
-          </a>
+          </a>{" "}
           for background, terminology, guidelines, and code snippets.
         </p>
         <div className="ct-example-row">
