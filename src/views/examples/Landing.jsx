@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
@@ -69,7 +70,8 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
+                          to="/documentation/alerts"
+                          tag={Link}
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />

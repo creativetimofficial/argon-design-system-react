@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
@@ -21,7 +21,8 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://demos.creative-tim.com/argon-design-system-react/documentation/icons"
+                    to="/documentation/icons"
+                    tag={Link}
                   >
                     View demo icons
                   </Button>
@@ -38,7 +39,7 @@ class Icons extends React.Component {
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://demos.creative-tim.com/argon-design-system-react/documentation/icons">
+              <Link to="/documentation/icons">
                 <div className="icons-container blur-item mt-5 on-screen">
                   <i className="icon ni ni-diamond" />
                   <i className="icon icon-sm ni ni-album-2" />
@@ -57,7 +58,7 @@ class Icons extends React.Component {
                 <span className="blur-hidden h5 text-success">
                   Eplore all the 21.000+ Nucleo Icons
                 </span>
-              </a>
+              </Link>
             </div>
           </Container>
         </section>

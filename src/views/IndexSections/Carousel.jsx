@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
@@ -45,7 +45,8 @@ class Carousel extends React.Component {
                 <Button
                   className="btn-white mt-4"
                   color="default"
-                  href="https://demos.creative-tim.com/argon-design-system-react/documentation/alerts"
+                  to="/documentation/alerts"
+                  tag={Link}
                 >
                   See all components
                 </Button>
