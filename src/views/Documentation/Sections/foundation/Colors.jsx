@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Label, Table, Row, Col } from "reactstrap";
+import { Label, Row, Col } from "reactstrap";
 
 class Colors extends React.Component {
   render() {

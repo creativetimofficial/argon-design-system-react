@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 
 class RoutingSystem extends React.Component {
@@ -17,11 +18,7 @@ class RoutingSystem extends React.Component {
         <p>
           A good place to learn how to work with routes inside a React app is
           the official docs of the react-router:{" "}
-          <a
-            href="https://reacttraining.com/react-router/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://reacttraining.com/react-router/" target="_blank">
             react router training
           </a>
           .

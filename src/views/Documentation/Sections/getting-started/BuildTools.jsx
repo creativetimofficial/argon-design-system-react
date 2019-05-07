@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Table } from "reactstrap";
 class BuildTools extends React.Component {

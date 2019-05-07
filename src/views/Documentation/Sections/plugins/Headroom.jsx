@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { prism } from "react-syntax-highlighter/dist/styles/prism";
@@ -44,11 +45,7 @@ class HeadroomDocs extends React.Component {
         <h3 id="initialization">Props</h3>
         <p>
           Please refer to{" "}
-          <a
-            href="https://wicky.nillia.ms/headroom.js/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://wicky.nillia.ms/headroom.js/" target="_blank">
             headrooms's documentation
           </a>
           .

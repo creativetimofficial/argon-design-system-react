@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { prism } from "react-syntax-highlighter/dist/styles/prism";
@@ -202,7 +203,6 @@ class Progresses extends React.Component {
           <a
             href="https://reactstrap.github.io/components/progress/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             reactstrap progress documentation
           </a>

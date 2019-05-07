@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button, NavbarBrand, Navbar, NavItem, NavLink, Nav } from "reactstrap";
@@ -40,7 +41,6 @@ class Header extends React.Component {
               <NavLink
                 className="nav-link-icon"
                 href="https://www.facebook.com/creativetim?ref=adsr-documentation-header"
-                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-facebook-square" />
@@ -50,7 +50,6 @@ class Header extends React.Component {
               <NavLink
                 className="nav-link-icon"
                 href="https://twitter.com/creativetim?ref=adsr-documentation-header"
-                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-twitter" />
@@ -60,7 +59,6 @@ class Header extends React.Component {
               <NavLink
                 className="nav-link-icon"
                 href="https://www.instagram.com/creativetimofficial?ref=adsr-documentation-header"
-                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-instagram" />
@@ -70,7 +68,6 @@ class Header extends React.Component {
               <NavLink
                 className="nav-link-icon"
                 href="https://www.instagram.com/creativetimofficial?ref=adsr-documentation-header"
-                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-dribbble" />
@@ -80,7 +77,6 @@ class Header extends React.Component {
               <NavLink
                 className="nav-link-icon"
                 href="https://github.com/creativetimofficial?ref=adsr-documentation-header"
-                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-github" />

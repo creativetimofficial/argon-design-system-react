@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { prism } from "react-syntax-highlighter/dist/styles/prism";
@@ -281,7 +282,6 @@ class Badges extends React.Component {
           <a
             href="https://reactstrap.github.io/components/badge/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             reactstrap badges documentation
           </a>
