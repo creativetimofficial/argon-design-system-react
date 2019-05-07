@@ -28,17 +28,17 @@ class BasicElements extends React.Component {
                     Button
                   </Button>
                   <Button
-                    className="btn-icon btn-3"
+                    className="btn-icon btn-3 ml-1"
                     color="primary"
                     type="button"
                   >
-                    <span className="btn-inner--icon">
+                    <span className="btn-inner--icon mr-1">
                       <i className="ni ni-bag-17" />
                     </span>
                     <span className="btn-inner--text">With icon</span>
                   </Button>
                   <Button
-                    className="btn-icon btn-2"
+                    className="btn-icon btn-2 ml-1"
                     color="primary"
                     type="button"
                   >
@@ -55,10 +55,10 @@ class BasicElements extends React.Component {
                   <Button color="primary" size="sm" type="button">
                     Small
                   </Button>
-                  <Button className="btn-1" color="primary" type="button">
+                  <Button className="btn-1 ml-1" color="primary" type="button">
                     Regular
                   </Button>
-                  <Button color="primary" size="lg" type="button">
+                  <Button color="primary" size="lg" type="button" className="ml-1">
                     Large Button
                   </Button>
                 </div>
@@ -71,20 +71,20 @@ class BasicElements extends React.Component {
                 <Button className="btn-1" color="primary" type="button">
                   Primary
                 </Button>
-                <Button className="btn-1" color="info" type="button">
+                <Button className="btn-1 ml-1" color="info" type="button">
                   Info
                 </Button>
-                <Button className="btn-1" color="success" type="button">
+                <Button className="btn-1 ml-1" color="success" type="button">
                   Success
                 </Button>
-                <Button className="btn-1" color="warning" type="button">
+                <Button className="btn-1 ml-1" color="warning" type="button">
                   Warning
                 </Button>
-                <Button className="btn-1" color="danger" type="button">
+                <Button className="btn-1 ml-1" color="danger" type="button">
                   Danger
                 </Button>
                 <Button
-                  className="btn-1 btn-neutral"
+                  className="btn-1 btn-neutral ml-1"
                   color="default"
                   type="button"
                 >
@@ -98,16 +98,16 @@ class BasicElements extends React.Component {
                 <Button className="btn-1" color="primary" outline type="button">
                   Outline-primary
                 </Button>
-                <Button className="btn-1" color="info" outline type="button">
+                <Button className="btn-1 ml-1" color="info" outline type="button">
                   Outline-info
                 </Button>
-                <Button className="btn-1" color="success" outline type="button">
+                <Button className="btn-1 ml-1" color="success" outline type="button">
                   Outline-success
                 </Button>
-                <Button className="btn-1" color="warning" outline type="button">
+                <Button className="btn-1 ml-1" color="warning" outline type="button">
                   Outline-warning
                 </Button>
-                <Button className="btn-1" color="danger" outline type="button">
+                <Button className="btn-1 ml-1" color="danger" outline type="button">
                   Outline-danger
                 </Button>
                 {/* Button links */}
@@ -125,7 +125,7 @@ class BasicElements extends React.Component {
                   Default
                 </Button>
                 <Button
-                  className="text-primary"
+                  className="text-primary ml-1"
                   color="link"
                   href="#pablo"
                   onClick={e => e.preventDefault()}
@@ -133,7 +133,7 @@ class BasicElements extends React.Component {
                   Primary
                 </Button>
                 <Button
-                  className="text-info"
+                  className="text-info ml-1"
                   color="link"
                   href="#pablo"
                   onClick={e => e.preventDefault()}
@@ -141,7 +141,7 @@ class BasicElements extends React.Component {
                   Info
                 </Button>
                 <Button
-                  className="text-success"
+                  className="text-success ml-1"
                   color="link"
                   href="#pablo"
                   onClick={e => e.preventDefault()}
@@ -149,7 +149,7 @@ class BasicElements extends React.Component {
                   Success
                 </Button>
                 <Button
-                  className="text-warning"
+                  className="text-warning ml-1"
                   color="link"
                   href="#pablo"
                   onClick={e => e.preventDefault()}
@@ -157,7 +157,7 @@ class BasicElements extends React.Component {
                   Warning
                 </Button>
                 <Button
-                  className="text-danger"
+                  className="text-danger ml-1"
                   color="link"
                   href="#pablo"
                   onClick={e => e.preventDefault()}

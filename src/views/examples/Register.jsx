@@ -67,7 +67,7 @@ class Register extends React.Component {
                           <span className="btn-inner--text">Github</span>
                         </Button>
                         <Button
-                          className="btn-neutral btn-icon"
+                          className="btn-neutral btn-icon ml-1"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
