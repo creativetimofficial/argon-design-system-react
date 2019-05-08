@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7965d2959ea0ee030a9075b9c5bb9b1b",
+    "revision": "6e52d2a22dc0e669f8ad1621d08ecc6f",
     "url": "/argon-design-system-react/index.html"
   },
   {
