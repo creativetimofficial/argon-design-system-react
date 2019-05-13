@@ -112,7 +112,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          to="/documentation/alerts"
+                          to="/documentation/alert"
                           tag={Link}
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
