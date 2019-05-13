@@ -103,7 +103,7 @@ var docsRoutes = [
   },
   {
     name: "Core Components",
-    path: "/documentation/custom-upload",
+    path: "/documentation/footers",
     routes: [
       {
         path: "/documentation/footers",
@@ -190,7 +190,7 @@ var docsRoutes = [
   },
   {
     name: "Plugins",
-    path: "/documentation/charts",
+    path: "/documentation/date-time-picker",
     routes: [
       {
         path: "/documentation/date-time-picker",
