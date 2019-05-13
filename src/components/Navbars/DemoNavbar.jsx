@@ -112,7 +112,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-navbar"
+                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-navbar"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
