@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af41048f13ea7463e47d3b6b5928203b",
+    "revision": "cc1c5e4aa23d42f2f46d44f8ac468e87",
     "url": "/argon-design-system-react/index.html"
   },
   {
-    "revision": "167d02b209306f4cfcdc",
-    "url": "/argon-design-system-react/static/css/main.dddd58f2.chunk.css"
+    "revision": "cc6dbf622a3729a19379",
+    "url": "/argon-design-system-react/static/css/main.4378e1fa.chunk.css"
   },
   {
-    "revision": "b3a94348ed55570e7d06",
-    "url": "/argon-design-system-react/static/js/2.0e5425a9.chunk.js"
+    "revision": "af7e960ad14f3080e2f0",
+    "url": "/argon-design-system-react/static/js/2.8a7f5950.chunk.js"
   },
   {
-    "revision": "167d02b209306f4cfcdc",
-    "url": "/argon-design-system-react/static/js/main.0eb59162.chunk.js"
+    "revision": "2db7ffdb6db1fe9a88b1934507a95f23",
+    "url": "/argon-design-system-react/static/js/2.8a7f5950.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a847c2c31d0bd9e9188",
-    "url": "/argon-design-system-react/static/js/runtime~main.c0146943.js"
+    "revision": "cc6dbf622a3729a19379",
+    "url": "/argon-design-system-react/static/js/main.eb290663.chunk.js"
+  },
+  {
+    "revision": "7a6956e196ccd2e4ccc8856708b02847",
+    "url": "/argon-design-system-react/static/js/main.eb290663.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "3373fda1fd485560db8a",
+    "url": "/argon-design-system-react/static/js/runtime-main.32a52964.js"
   },
   {
     "revision": "275a2629582aa2af3469364c6748cf38",
