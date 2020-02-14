@@ -26,7 +26,7 @@ class Hero extends React.Component {
       <>
         <div className="position-relative">
           {/* Hero for FREE version */}
-          <section className="section section-lg section-hero section-shaped">
+          <section className="section section-hero section-shaped">
             {/* Background circles */}
             <div className="shape shape-style-1 shape-default">
               <span className="span-150" />
