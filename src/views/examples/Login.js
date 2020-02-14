@@ -35,8 +35,8 @@ import {
 } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import SimpleFooter from "components/Footers/SimpleFooter.jsx";
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 class Login extends React.Component {
   componentDidMount() {
