@@ -2,7 +2,9 @@
 ### Bug fixing
 - Changed all 1.0.0 versioning to v1.1.0
 - Solved https://github.com/creativetimofficial/argon-design-system-react/issues/2
-- Changed `src/components/Footers/CardsFooter.js` to match [Argon Design System](https://www.creative-tim.com/product/argon-design-system?ref=adsr-changelog) by Creative Tim
+- Changes to match [Argon Design System](https://www.creative-tim.com/product/argon-design-system?ref=adsr-changelog) by Creative Tim
+- -  `src/components/Footers/CardsFooter.js`
+- - `src/views/IndexSections/Datepicker.js`
 ### Major style changes
 - Changed the whole scss/css files and folders to match those of [Argon Design System](https://www.creative-tim.com/product/argon-design-system?ref=adsr-changelog) by Creative Tim
 ### Deleted components
