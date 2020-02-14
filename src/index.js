@@ -26,12 +26,12 @@ import "assets/scss/argon-design-system-react.scss";
 import "views/Documentation/assets-for-demo/docs.scss";
 import "views/Documentation/assets-for-demo/react-docs.scss";
 
-import Index from "views/Index.jsx";
-import Landing from "views/examples/Landing.jsx";
-import Login from "views/examples/Login.jsx";
-import Profile from "views/examples/Profile.jsx";
-import Register from "views/examples/Register.jsx";
-import Documentation from "views/Documentation/Documentation.jsx";
+import Index from "views/Index.js";
+import Landing from "views/examples/Landing.js";
+import Login from "views/examples/Login.js";
+import Profile from "views/examples/Profile.js";
+import Register from "views/examples/Register.js";
+import Documentation from "views/Documentation/Documentation.js";
 
 ReactPixel.init("111649226022273");
 ReactPixel.pageView();
