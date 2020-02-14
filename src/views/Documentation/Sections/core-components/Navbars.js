@@ -31,7 +31,7 @@ class Navbar extends React.Component {
           In our template product, we have just one demo navbar that is used for
           all the present pages. This one is found inside:{" "}
           <code className="highlighter-rouge">
-            src/components/Navbars/DemoNavbar.jsx
+            src/components/Navbars/DemoNavbar.js
           </code>
           .
         </p>
