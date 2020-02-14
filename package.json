@@ -1,6 +1,6 @@
 {
   "name": "argon-design-system-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React version of Argon Design System by Creative Tim",
   "main": "index.js",
   "repository": {
@@ -30,7 +30,7 @@
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -50,26 +50,31 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "bootstrap": "4.3.1",
     "classnames": "2.2.6",
     "gh-pages": "2.0.1",
-    "headroom.js": "0.9.4",
+    "headroom.js": "0.11.0",
     "moment": "2.24.0",
-    "node-sass": "4.12.0",
-    "nouislider": "13.1.5",
-    "react": "16.8.6",
+    "node-sass": "4.13.1",
+    "nouislider": "14.1.1",
+    "react": "16.12.0",
     "react-copy-to-clipboard": "5.0.1",
     "react-datetime": "2.16.3",
-    "react-dom": "16.8.6",
+    "react-dom": "16.12.0",
     "react-facebook-pixel": "0.1.3",
-    "react-router": "5.0.0",
-    "react-router-dom": "5.0.0",
-    "react-scripts": "3.0.0",
-    "reactstrap": "8.0.0"
+    "react-router": "5.1.2",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.3.1",
+    "reactstrap": "8.4.1"
   },
   "devDependencies": {
-    "@types/googlemaps": "3.30.19",
+    "@types/googlemaps": "3.39.2",
     "@types/markerclustererplus": "2.1.33",
-    "@types/react": "16.8.16",
-    "typescript": "3.4.5"
+    "@types/react": "16.9.19",
+    "eslint-plugin-flowtype": "3.13.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "jquery": "3.4.1",
+    "typescript": "3.7.5"
   }
 }
