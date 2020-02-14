@@ -1,4 +1,4 @@
-## [1.1.0] date
+## [1.1.0] 2020-02-14
 ### Bug fixing
 - Changed all 1.0.0 versioning to v1.1.0
 - Solved https://github.com/creativetimofficial/argon-design-system-react/issues/2
