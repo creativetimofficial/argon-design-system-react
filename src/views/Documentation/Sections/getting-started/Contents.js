@@ -102,32 +102,32 @@ const fileStructure = `Argon Design System React
     │           └── fonts
     ├── components
     │   ├── Footers
-    │   │   ├── AdminFooter.jsx
-    │   │   └── AuthFooter.jsx
+    │   │   ├── AdminFooter.js
+    │   │   └── AuthFooter.js
     │   ├── Headers
-    │   │   ├── Header.jsx
-    │   │   └── UserHeader.jsx
+    │   │   ├── Header.js
+    │   │   └── UserHeader.js
     │   ├── Navbars
-    │   │   ├── AdminNavbar.jsx
-    │   │   └── AuthNavbar.jsx
+    │   │   ├── AdminNavbar.js
+    │   │   └── AuthNavbar.js
     │   └── Sidebar
-    │       └── Sidebar.jsx
+    │       └── Sidebar.js
     ├── index.js
     ├── layouts
-    │   ├── Admin.jsx
-    │   └── Auth.jsx
+    │   ├── Admin.js
+    │   └── Auth.js
     ├── routes.js
     ├── variables
-    │   └── charts.jsx
+    │   └── charts.js
     └── views
-        ├── Index.jsx
+        ├── Index.js
         └── examples
-            ├── Icons.jsx
-            ├── Login.jsx
-            ├── Maps.jsx
-            ├── Profile.jsx
-            ├── Register.jsx
-            └── Tables.jsx`;
+            ├── Icons.js
+            ├── Login.js
+            ├── Maps.js
+            ├── Profile.js
+            ├── Register.js
+            └── Tables.js`;
 
 class Contents extends React.Component {
   render() {
