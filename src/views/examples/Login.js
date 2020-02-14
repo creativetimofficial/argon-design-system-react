@@ -60,7 +60,7 @@ class Login extends React.Component {
               <span />
               <span />
             </div>
-            <Container className="pt-lg-md">
+            <Container className="pt-lg-7">
               <Row className="justify-content-center">
                 <Col lg="5">
                   <Card className="bg-secondary shadow border-0">
