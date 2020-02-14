@@ -95,7 +95,7 @@ class Datepicker extends React.Component {
             <small className="d-block text-uppercase font-weight-bold mb-3">
               Single date
             </small>
-            <FormGroup className="focused">
+            <FormGroup>
               <InputGroup>
                 <InputGroupAddon addonType="prepend">
                   <InputGroupText>
@@ -117,7 +117,7 @@ class Datepicker extends React.Component {
             </small>
             <Row>
               <Col sm={6} xs={12}>
-                <FormGroup className="focused">
+                <FormGroup>
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
@@ -149,7 +149,7 @@ class Datepicker extends React.Component {
                 </FormGroup>
               </Col>
               <Col sm={6} xs={12}>
-                <FormGroup className="focused">
+                <FormGroup>
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
