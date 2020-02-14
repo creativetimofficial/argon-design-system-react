@@ -40,11 +40,11 @@ class Footer extends React.Component {
         <p>
           These two can be found inside{" "}
           <code className="highlighter-rouge">
-            src/components/Footers/CardsFooter.jsx
+            src/components/Footers/CardsFooter.js
           </code>{" "}
           and{" "}
           <code className="highlighter-rouge">
-            src/components/Footers/SimpleFooter.jsx
+            src/components/Footers/SimpleFooter.js
           </code>
           .
         </p>
