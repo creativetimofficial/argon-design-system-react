@@ -2822,7 +2822,7 @@ class Icons extends React.Component {
           <li>the style you want to use’s corresponding prefix.</li>
         </ol>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`<i class="fa fa-bicycle"></i>`}
+          {`<i className="fa fa-bicycle"></i>`}
         </SyntaxHighlighter>
         <h3 id="icons-1">Icons</h3>
         <p>Get the icon you need on the official website:</p>
