@@ -5,6 +5,7 @@
 - Changes to match [Argon Design System](https://www.creative-tim.com/product/argon-design-system?ref=adsr-changelog) by Creative Tim
 - -  `src/components/Footers/CardsFooter.js`
 - - `src/views/IndexSections/Datepicker.js`
+- Solved build issue
 ### Major style changes
 - Changed the whole scss/css files and folders to match those of [Argon Design System](https://www.creative-tim.com/product/argon-design-system?ref=adsr-changelog) by Creative Tim
 ### Deleted components

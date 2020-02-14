@@ -200,7 +200,7 @@ We use GitHub Issues as the official bug tracker for the Argon Design System Rea
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/?ref=adsr-github-readme)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com/?ref=adsr-github-readme)
 
 - Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md?ref=creativetim)
 
