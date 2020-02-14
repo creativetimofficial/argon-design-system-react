@@ -133,39 +133,39 @@ Argon Design System React
     │           └── fonts
     ├── components
     │   ├── Footers
-    │   │   ├── CardsFooter.jsx
-    │   │   └── SimpleFooter.jsx
+    │   │   ├── CardsFooter.js
+    │   │   └── SimpleFooter.js
     │   └── Navbars
-    │       └── DemoNavbar.jsx
+    │       └── DemoNavbar.js
     ├── index.js
     └── views
-        ├── Index.jsx
+        ├── Index.js
         ├── IndexSections
-        │   ├── Alerts.jsx
-        │   ├── Buttons.jsx
-        │   ├── Carousel.jsx
-        │   ├── CustomControls.jsx
-        │   ├── Datepicker.jsx
-        │   ├── Download.jsx
-        │   ├── Hero.jsx
-        │   ├── Icons.jsx
-        │   ├── Inputs.jsx
-        │   ├── Labels.jsx
-        │   ├── Login.jsx
-        │   ├── Menus.jsx
-        │   ├── Modals.jsx
-        │   ├── Navbars.jsx
-        │   ├── Pagination.jsx
-        │   ├── Pills.jsx
-        │   ├── Progress.jsx
-        │   ├── Tabs.jsx
-        │   ├── TooltipPopover.jsx
-        │   └── Typography.jsx
+        │   ├── Alerts.js
+        │   ├── Buttons.js
+        │   ├── Carousel.js
+        │   ├── CustomControls.js
+        │   ├── Datepicker.js
+        │   ├── Download.js
+        │   ├── Hero.js
+        │   ├── Icons.js
+        │   ├── Inputs.js
+        │   ├── Labels.js
+        │   ├── Login.js
+        │   ├── Menus.js
+        │   ├── Modals.js
+        │   ├── Navbars.js
+        │   ├── Pagination.js
+        │   ├── Pills.js
+        │   ├── Progress.js
+        │   ├── Tabs.js
+        │   ├── TooltipPopover.js
+        │   └── Typography.js
         └── examples
-            ├── Landing.jsx
-            ├── Login.jsx
-            ├── Profile.jsx
-            └── Register.jsx
+            ├── Landing.js
+            ├── Login.js
+            ├── Profile.js
+            └── Register.js
 ```
 
 
