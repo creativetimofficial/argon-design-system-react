@@ -330,7 +330,7 @@ class Navs extends React.Component {
       <>
         <div className="ct-page-title">
           <h1 className="ct-title" id="content">
-            Modal
+            Navs
           </h1>
           <div className="avatar-group mt-3" />
         </div>
