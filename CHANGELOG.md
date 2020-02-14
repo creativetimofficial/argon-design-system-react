@@ -10,7 +10,7 @@
 ### Deleted dependencies
 ### Added dependencies
 + eslint-plugin-flowtype@3.13.0 (To stop warning: `npm WARN eslint-config-react-app@5.2.0 requires a peer of eslint-plugin-flowtype@3.x but none is installed. You must install peer dependencies yourself.`)
-+ bootstrap@4.4.1 (To match the new files and folders of scss)
++ bootstrap@4.3.1 (To match the new files and folders of scss)
 + jquery@3.4.1 (To stop warning: `npm WARN bootstrap@4.4.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.`)
 ### Updated dependencies
 ```
