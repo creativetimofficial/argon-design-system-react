@@ -73,53 +73,57 @@ class CardsFooter extends React.Component {
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
+                  className="btn-icon-only rounded-circle"
                   color="twitter"
                   href="https://twitter.com/creativetim"
                   id="tooltip475038074"
-                  size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-twitter" />
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-twitter" />
+                  </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round ml-1"
+                  className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
                   id="tooltip837440414"
-                  size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-square" />
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-facebook-square" />
+                  </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round ml-1"
+                  className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
                   id="tooltip829810202"
-                  size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-dribbble" />
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-dribbble" />
+                  </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
                 </UncontrolledTooltip>
                 <Button
-                  className="btn-neutral btn-icon-only btn-round ml-1"
+                  className="btn-icon-only rounded-circle ml-1"
                   color="github"
                   href="https://github.com/creativetimofficial"
                   id="tooltip495507257"
-                  size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-github" />
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-github" />
+                  </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
