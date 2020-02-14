@@ -43,13 +43,13 @@ class HeadroomDocs extends React.Component {
   render() {
     return (
       <>
-        <div class="ct-page-title">
-          <h1 class="ct-title" id="content">
+        <div className="ct-page-title">
+          <h1 className="ct-title" id="content">
             Headroom
           </h1>
         </div>
-        <div class="avatar-group mt-3" />
-        <p class="ct-lead">
+        <div className="avatar-group mt-3" />
+        <p className="ct-lead">
           Give your pages some headroom. Hide your header until you need it.
         </p>
         <hr />
