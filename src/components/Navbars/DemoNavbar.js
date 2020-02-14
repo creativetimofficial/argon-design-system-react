@@ -45,6 +45,23 @@ class DemoNavbar extends React.Component {
     // initialise
     headroom.init();
   }
+  state = {
+    collapseClasses: "",
+    collapseOpen: false
+  };
+
+  onExiting = () => {
+    this.setState({
+      collapseClasses: "collapsing-out"
+    });
+  };
+
+  onExited = () => {
+    this.setState({
+      collapseClasses: ""
+    });
+  };
+
   render() {
     return (
       <>
@@ -64,7 +81,13 @@ class DemoNavbar extends React.Component {
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse navbar toggler="#navbar_global">
+              <UncontrolledCollapse
+                toggler="#navbar_global"
+                navbar
+                className={this.state.collapseClasses}
+                onExiting={this.onExiting}
+                onExited={this.onExited}
+              >
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
