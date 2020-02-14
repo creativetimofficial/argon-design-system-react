@@ -48,6 +48,7 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "bootstrap": "4.4.1",
     "classnames": "2.2.6",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
@@ -68,6 +69,7 @@
     "eslint-plugin-flowtype": "3.13.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
+    "jquery": "3.4.1",
     "typescript": "3.7.5"
   }
 }
