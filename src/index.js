@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.0.0
+* Argon Design System React - v1.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
@@ -23,11 +23,11 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss";
 
-import Index from "views/Index.jsx";
-import Landing from "views/examples/Landing.jsx";
-import Login from "views/examples/Login.jsx";
-import Profile from "views/examples/Profile.jsx";
-import Register from "views/examples/Register.jsx";
+import Index from "views/Index.js";
+import Landing from "views/examples/Landing.js";
+import Login from "views/examples/Login.js";
+import Profile from "views/examples/Profile.js";
+import Register from "views/examples/Register.js";
 
 ReactDOM.render(
   <BrowserRouter>
