@@ -296,95 +296,95 @@ class Colors extends React.Component {
           layout without losing warmth and cleanliness, and are therefore often
           used as a background color for web components.
         </p>
-        <table class="table table-colors">
+        <table className="table table-colors">
           <tbody>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#f6f9fc" }} />
+                <div className="swatch" style={{ backgroundColor: "#f6f9fc" }} />
                 Gray 100
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #f6f9fc
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#e9ecef" }} />
+                <div className="swatch" style={{ backgroundColor: "#e9ecef" }} />
                 Gray 200
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #e9ecef
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#dee2e6" }} />
+                <div className="swatch" style={{ backgroundColor: "#dee2e6" }} />
                 Gray 300
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #dee2e6
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#ced4da" }} />
+                <div className="swatch" style={{ backgroundColor: "#ced4da" }} />
                 Gray 400
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #ced4da
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#adb5bd" }} />
+                <div className="swatch" style={{ backgroundColor: "#adb5bd" }} />
                 Gray 500
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #adb5bd
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#8898aa" }} />
+                <div className="swatch" style={{ backgroundColor: "#8898aa" }} />
                 Gray 600
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #8898aa
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#525f7f" }} />
+                <div className="swatch" style={{ backgroundColor: "#525f7f" }} />
                 Gray 700
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #525f7f
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#32325d" }} />
+                <div className="swatch" style={{ backgroundColor: "#32325d" }} />
                 Gray 800
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #32325d
               </td>
             </tr>
             <tr>
               <td>
-                <div class="swatch" style={{ backgroundColor: "#212529" }} />
+                <div className="swatch" style={{ backgroundColor: "#212529" }} />
                 Gray 900
               </td>
               <td>
-                <div class="lozenge">Hex</div>
+                <div className="lozenge">Hex</div>
                 #212529
               </td>
             </tr>
