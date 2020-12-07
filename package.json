@@ -69,7 +69,7 @@
     "eslint-plugin-flowtype": "3.13.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "typescript": "3.7.5"
   }
 }
