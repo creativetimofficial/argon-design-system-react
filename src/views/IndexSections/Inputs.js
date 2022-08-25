@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -63,8 +63,8 @@ class Inputs extends React.Component {
                     <Input
                       placeholder="Search"
                       type="text"
-                      onFocus={e => this.setState({ searchFocused: true })}
-                      onBlur={e => this.setState({ searchFocused: false })}
+                      onFocus={(e) => this.setState({ searchFocused: true })}
+                      onBlur={(e) => this.setState({ searchFocused: false })}
                     />
                   </InputGroup>
                 </FormGroup>
@@ -82,8 +82,8 @@ class Inputs extends React.Component {
                     <Input
                       placeholder="Birthday"
                       type="text"
-                      onFocus={e => this.setState({ birthdayFocused: true })}
-                      onBlur={e => this.setState({ birthdayFocused: false })}
+                      onFocus={(e) => this.setState({ birthdayFocused: true })}
+                      onBlur={(e) => this.setState({ birthdayFocused: false })}
                     />
                     <InputGroupAddon addonType="append">
                       <InputGroupText>
@@ -142,8 +142,12 @@ class Inputs extends React.Component {
                       <Input
                         placeholder="Search"
                         type="text"
-                        onFocus={e => this.setState({ searchAltFocused: true })}
-                        onBlur={e => this.setState({ searchAltFocused: false })}
+                        onFocus={(e) =>
+                          this.setState({ searchAltFocused: true })
+                        }
+                        onBlur={(e) =>
+                          this.setState({ searchAltFocused: false })
+                        }
                       />
                     </InputGroup>
                   </FormGroup>
@@ -166,10 +170,10 @@ class Inputs extends React.Component {
                       <Input
                         placeholder="Birthday"
                         type="text"
-                        onFocus={e =>
+                        onFocus={(e) =>
                           this.setState({ birthdayAltFocused: true })
                         }
-                        onBlur={e =>
+                        onBlur={(e) =>
                           this.setState({ birthdayAltFocused: false })
                         }
                       />

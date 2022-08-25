@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -54,7 +54,7 @@ class Menus extends React.Component {
                   <Container>
                     <NavbarBrand
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
                       Menu
                     </NavbarBrand>
@@ -88,7 +88,7 @@ class Menus extends React.Component {
                         <NavItem>
                           <NavLink
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Discover <span className="sr-only">(current)</span>
                           </NavLink>
@@ -96,7 +96,7 @@ class Menus extends React.Component {
                         <NavItem>
                           <NavLink
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Profile
                           </NavLink>
@@ -109,20 +109,20 @@ class Menus extends React.Component {
                           >
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Action
                             </DropdownItem>
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Another action
                             </DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Something else here
                             </DropdownItem>
@@ -143,7 +143,7 @@ class Menus extends React.Component {
                   <Container>
                     <NavbarBrand
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
                       Menu
                     </NavbarBrand>
@@ -177,7 +177,7 @@ class Menus extends React.Component {
                           <NavLink
                             className="nav-link-icon"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             <i className="ni ni-favourite-28" />
                             <span className="nav-link-inner--text d-lg-none">
@@ -189,7 +189,7 @@ class Menus extends React.Component {
                           <NavLink
                             className="nav-link-icon"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             <i className="ni ni-notification-70" />
                             <span className="nav-link-inner--text d-lg-none">
@@ -210,20 +210,20 @@ class Menus extends React.Component {
                           >
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Action
                             </DropdownItem>
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Another action
                             </DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem
                               href="#pablo"
-                              onClick={e => e.preventDefault()}
+                              onClick={(e) => e.preventDefault()}
                             >
                               Something else here
                             </DropdownItem>

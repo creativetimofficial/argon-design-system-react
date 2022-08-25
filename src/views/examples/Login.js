@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -73,12 +73,15 @@ class Login extends React.Component {
                           className="btn-neutral btn-icon"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
                               alt="..."
-                              src={require("assets/img/icons/common/github.svg")}
+                              src={
+                                require("assets/img/icons/common/github.svg")
+                                  .default
+                              }
                             />
                           </span>
                           <span className="btn-inner--text">Github</span>
@@ -87,12 +90,15 @@ class Login extends React.Component {
                           className="btn-neutral btn-icon ml-1"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
                               alt="..."
-                              src={require("assets/img/icons/common/google.svg")}
+                              src={
+                                require("assets/img/icons/common/google.svg")
+                                  .default
+                              }
                             />
                           </span>
                           <span className="btn-inner--text">Google</span>
@@ -158,7 +164,7 @@ class Login extends React.Component {
                       <a
                         className="text-light"
                         href="#pablo"
-                        onClick={e => e.preventDefault()}
+                        onClick={(e) => e.preventDefault()}
                       >
                         <small>Forgot password?</small>
                       </a>
@@ -167,7 +173,7 @@ class Login extends React.Component {
                       <a
                         className="text-light"
                         href="#pablo"
-                        onClick={e => e.preventDefault()}
+                        onClick={(e) => e.preventDefault()}
                       >
                         <small>Create new account</small>
                       </a>

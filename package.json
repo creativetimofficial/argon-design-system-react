@@ -1,6 +1,6 @@
 {
   "name": "argon-design-system-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React version of Argon Design System by Creative Tim",
   "main": "index.js",
   "repository": {
@@ -34,9 +34,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css",
-    "minify-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css --source-map true"
+    "compile-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css",
+    "minify-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --style compressed"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,27 +48,30 @@
   ],
   "dependencies": {
     "bootstrap": "4.3.1",
-    "classnames": "2.2.6",
-    "headroom.js": "0.11.0",
-    "moment": "2.24.0",
-    "node-sass": "4.13.1",
+    "classnames": "2.3.1",
+    "headroom.js": "0.12.0",
+    "moment": "2.29.4",
     "nouislider": "14.1.1",
-    "react": "16.12.0",
-    "react-datetime": "2.16.3",
-    "react-dom": "16.12.0",
-    "react-router": "5.1.2",
+    "react": "18.2.0",
+    "react-datetime": "3.1.1",
+    "react-dom": "18.2.0",
     "react-router-dom": "5.1.2",
-    "react-scripts": "3.3.1",
-    "reactstrap": "8.4.1"
+    "react-scripts": "5.0.1",
+    "reactstrap": "8.4.1",
+    "sass": "1.53.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "devDependencies": {
     "@types/googlemaps": "3.39.2",
     "@types/markerclustererplus": "2.1.33",
-    "@types/react": "16.9.19",
-    "eslint-plugin-flowtype": "3.13.0",
+    "@types/react": "18.0.17",
+    "eslint-plugin-flowtype": "8.0.3",
     "gulp": "4.0.2",
-    "gulp-append-prepend": "1.0.8",
-    "jquery": "3.4.1",
-    "typescript": "3.7.5"
+    "gulp-append-prepend": "1.0.9",
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
   }
 }

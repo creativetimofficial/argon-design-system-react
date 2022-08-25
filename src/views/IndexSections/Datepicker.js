@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -61,7 +61,7 @@ class Datepicker extends React.Component {
   // start-date className which means that this day will only have left border radius
   // end-date className which means that this day will only have right border radius
   // this way, the selected dates will look nice and will only be rounded at the ends
-  getClassNameReactDatetimeDays = date => {
+  getClassNameReactDatetimeDays = (date) => {
     if (this.state.startDate && this.state.endDate) {
     }
     if (
@@ -130,14 +130,13 @@ class Datepicker extends React.Component {
                       }}
                       value={this.state.startDate}
                       timeFormat={false}
-                      onChange={e =>
+                      onChange={(e) =>
                         this.handleReactDatetimeChange("startDate", e)
                       }
                       renderDay={(props, currentDate, selectedDate) => {
                         let classes = props.className;
-                        classes += this.getClassNameReactDatetimeDays(
-                          currentDate
-                        );
+                        classes +=
+                          this.getClassNameReactDatetimeDays(currentDate);
                         return (
                           <td {...props} className={classes}>
                             {currentDate.date()}
@@ -163,14 +162,13 @@ class Datepicker extends React.Component {
                       className="rdtPickerOnRight"
                       value={this.state.endDate}
                       timeFormat={false}
-                      onChange={e =>
+                      onChange={(e) =>
                         this.handleReactDatetimeChange("endDate", e)
                       }
                       renderDay={(props, currentDate, selectedDate) => {
                         let classes = props.className;
-                        classes += this.getClassNameReactDatetimeDays(
-                          currentDate
-                        );
+                        classes +=
+                          this.getClassNameReactDatetimeDays(currentDate);
                         return (
                           <td {...props} className={classes}>
                             {currentDate.date()}

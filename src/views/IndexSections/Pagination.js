@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -29,27 +29,42 @@ class PaginationSection extends React.Component {
           <nav aria-label="Page navigation example" className="mb-4">
             <Pagination>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   1
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem className="active">
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   2
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   3
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   4
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   5
                 </PaginationLink>
               </PaginationItem>
@@ -58,37 +73,58 @@ class PaginationSection extends React.Component {
           <nav aria-label="Page navigation example">
             <Pagination>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   <i className="fa fa-angle-left" />
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   1
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem className="active">
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   2
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   3
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   4
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   5
                 </PaginationLink>
               </PaginationItem>
               <PaginationItem>
-                <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>
+                <PaginationLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
                   <i className="fa fa-angle-right" />
                 </PaginationLink>
               </PaginationItem>

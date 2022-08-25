@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -93,7 +93,7 @@ class Login extends React.Component {
                           className="btn-neutral btn-icon"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
@@ -107,7 +107,7 @@ class Login extends React.Component {
                           className="btn-neutral btn-icon"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
@@ -138,10 +138,10 @@ class Login extends React.Component {
                             <Input
                               placeholder="Email"
                               type="email"
-                              onFocus={e =>
+                              onFocus={(e) =>
                                 this.setState({ emailFocused: true })
                               }
-                              onBlur={e =>
+                              onBlur={(e) =>
                                 this.setState({ emailFocused: false })
                               }
                             />
@@ -162,10 +162,10 @@ class Login extends React.Component {
                               placeholder="Password"
                               type="password"
                               autoComplete="off"
-                              onFocus={e =>
+                              onFocus={(e) =>
                                 this.setState({ passwordFocused: true })
                               }
-                              onBlur={e =>
+                              onBlur={(e) =>
                                 this.setState({ passwordFocused: false })
                               }
                             />
