@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Argon Design System React - v1.1.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -70,7 +70,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -88,7 +88,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -97,7 +97,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -149,7 +149,7 @@ class Profile extends React.Component {
                           giving it a warm, intimate feel with a solid groove
                           structure. An artist of considerable range.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
