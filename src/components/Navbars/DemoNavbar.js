@@ -146,7 +146,7 @@ class DemoNavbar extends React.Component {
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
                               Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                              grid system we used for Argon
                             </p>
                           </Media>
                         </Media>
