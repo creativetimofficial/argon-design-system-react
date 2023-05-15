@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.1
+* Argon Design System React - v1.1.2
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -25,7 +25,7 @@ class CustomControls extends React.Component {
   state = {
     simpleValue: 100.0,
     rangeLow: 200.0,
-    rangeHigh: 400.0
+    rangeHigh: 400.0,
   };
   componentDidMount() {
     // slider1 init
@@ -34,7 +34,7 @@ class CustomControls extends React.Component {
       start: [0.0],
       connect: [true, false],
       step: 0.01,
-      range: { min: 100.0, max: 500.0 }
+      range: { min: 100.0, max: 500.0 },
     }).on(
       "update",
       function (values, handle) {
@@ -48,7 +48,7 @@ class CustomControls extends React.Component {
       start: [200.0, 400.0],
       connect: [false, true, false],
       step: 0.01,
-      range: { min: 100.0, max: 500.0 }
+      range: { min: 100.0, max: 500.0 },
     }).on(
       "update",
       function (values, handle) {

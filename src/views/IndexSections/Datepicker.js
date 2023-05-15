@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.1
+* Argon Design System React - v1.1.2
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -26,7 +26,7 @@ import {
   InputGroupText,
   InputGroup,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Datepicker extends React.Component {
@@ -39,7 +39,7 @@ class Datepicker extends React.Component {
     ) {
       this.setState({
         startDate: date,
-        endDate: date
+        endDate: date,
       });
     } else if (
       this.state.endDate &&
@@ -48,11 +48,11 @@ class Datepicker extends React.Component {
     ) {
       this.setState({
         startDate: date,
-        endDate: date
+        endDate: date,
       });
     } else {
       this.setState({
-        [who]: date
+        [who]: date,
       });
     }
   };
@@ -104,7 +104,7 @@ class Datepicker extends React.Component {
                 </InputGroupAddon>
                 <ReactDatetime
                   inputProps={{
-                    placeholder: "Date Picker Here"
+                    placeholder: "Date Picker Here",
                   }}
                   timeFormat={false}
                 />
@@ -126,7 +126,7 @@ class Datepicker extends React.Component {
                     </InputGroupAddon>
                     <ReactDatetime
                       inputProps={{
-                        placeholder: "Start Date"
+                        placeholder: "Start Date",
                       }}
                       value={this.state.startDate}
                       timeFormat={false}
@@ -157,7 +157,7 @@ class Datepicker extends React.Component {
                     </InputGroupAddon>
                     <ReactDatetime
                       inputProps={{
-                        placeholder: "End Date"
+                        placeholder: "End Date",
                       }}
                       className="rdtPickerOnRight"
                       value={this.state.endDate}

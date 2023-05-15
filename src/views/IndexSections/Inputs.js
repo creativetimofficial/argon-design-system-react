@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.1
+* Argon Design System React - v1.1.2
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -27,7 +27,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Inputs extends React.Component {
@@ -51,7 +51,7 @@ class Inputs extends React.Component {
                 </FormGroup>
                 <FormGroup
                   className={classnames({
-                    focused: this.state.searchFocused
+                    focused: this.state.searchFocused,
                   })}
                 >
                   <InputGroup className="mb-4">
@@ -75,7 +75,7 @@ class Inputs extends React.Component {
                 </FormGroup>
                 <FormGroup
                   className={classnames({
-                    focused: this.state.birthdayFocused
+                    focused: this.state.birthdayFocused,
                   })}
                 >
                   <InputGroup className="mb-4">
@@ -130,7 +130,7 @@ class Inputs extends React.Component {
                   </FormGroup>
                   <FormGroup
                     className={classnames({
-                      focused: this.state.searchAltFocused
+                      focused: this.state.searchAltFocused,
                     })}
                   >
                     <InputGroup className="input-group-alternative mb-4">
@@ -163,7 +163,7 @@ class Inputs extends React.Component {
                   </FormGroup>
                   <FormGroup
                     className={classnames({
-                      focused: this.state.birthdayAltFocused
+                      focused: this.state.birthdayAltFocused,
                     })}
                   >
                     <InputGroup className="input-group-alternative mb-4">

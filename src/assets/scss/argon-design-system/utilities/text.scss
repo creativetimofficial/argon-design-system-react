@@ -37,5 +37,5 @@
 // Color variations
 
 @each $color, $value in $colors {
-	@include text-emphasis-variant(".text-#{$color}", $value);
+	@include text-emphasis-variant(".text-#{$color}", $value, $ignore-warning: true);
 }

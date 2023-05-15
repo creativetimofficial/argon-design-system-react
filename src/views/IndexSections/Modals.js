@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Argon Design System React - v1.1.1
+* Argon Design System React - v1.1.2
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
@@ -32,14 +32,14 @@ import {
   InputGroup,
   Modal,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Modals extends React.Component {
   state = {};
   toggleModal = (state) => {
     this.setState({
-      [state]: !this.state[state]
+      [state]: !this.state[state],
     });
   };
   render() {
@@ -223,7 +223,7 @@ class Modals extends React.Component {
                     <Form role="form">
                       <FormGroup
                         className={classnames("mb-3", {
-                          focused: this.state.emailFocused
+                          focused: this.state.emailFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -246,7 +246,7 @@ class Modals extends React.Component {
                       </FormGroup>
                       <FormGroup
                         className={classnames({
-                          focused: this.state.passwordFocused
+                          focused: this.state.passwordFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
