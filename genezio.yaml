@@ -13,5 +13,4 @@ frontend:
     deploy:
       - npm install --legacy-peer-deps
       - npm run build
-  subdomain: fuchsia-sick-bird
 yamlVersion: 2
