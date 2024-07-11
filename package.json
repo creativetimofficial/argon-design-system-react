@@ -27,9 +27,10 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
+  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -69,7 +70,8 @@
     "@types/react": "18.2.6",
     "eslint-plugin-flowtype": "8.0.3",
     "jquery": "3.7.0",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "cross-env": "^7.0.3"
   },
   "overrides": {
     "svgo": "3.0.2"
